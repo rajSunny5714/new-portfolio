@@ -66,9 +66,8 @@ const Experience = () => {
        'Resolved 20+ real-time production incidents per month for a client-facing web application, ensuring minimal downtime and smooth business operations.',
        'Investigated and troubleshot REST API issues using Postman, validating responses, status codes, and backend service functionality.',
        'Coordinated with clients and cross-functional teams through online meetings and Microsoft Teams calls to analyze and resolve application-related issues.',
-       'Monitored and supported live production applications by identifying root causes, tracking incidents, and ensuring timely issue resolution within SLA       timelines.',
-       'Performed database-level validations using SQL and MySQL to verify application data and assist in troubleshooting production issues.',
-       'Worked closely with senior developers to understand newly introduced features, application updates, and workflow changes in the production       environment.',
+       'Monitored and supported live production applications by identifying root causes of issues, tracking incidents through ticketing systems, analyzing application logs and API responses, and ensuring timely resolution within SLA timelines to maintain application stability and business continuity.
+       'Worked closely with senior developers to understand newly introduced features, application updates, and workflow changes in the real time production environment.',
        'Maintained incident reports and issue documentation to improve troubleshooting efficiency and support recurring issue resolution.',
        'Participated in Agile/Scrum activities including daily stand-ups, sprint discussions, and team collaboration for production support operations.',
       ],
