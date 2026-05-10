@@ -63,15 +63,14 @@ const Experience = () => {
       location: 'Delhi, India',
       color: 'bg-custom-yellow',
       points: [
-        'Resolved 20+ production incidents per month by debugging backend services built with Java and Spring Boot, improving system stability and reducing downtime.',
-        'Diagnosed and fixed REST API issues, ensuring seamless data flow and reducing response errors across client-facing applications.',
-        'Improved API performance by 25% by optimizing backend logic and SQL queries, leading to faster response times.',
-        'Implemented efficient database operations using JDBC and MySQL, enhancing query performance and maintaining data consistency.',
-        'Performed API testing and validation using Postman, ensuring correct status codes and reliability of backend services.',
-        'Collaborated with clients and cross-functional teams to gather requirements and deliver solutions within SLA timelines.',
-        'Supported and maintained client-facing production applications by handling debugging, issue resolution, and performance improvements.',
-        'Worked in an Agile/Scrum environment, actively participating in sprint planning, stand-ups, and retrospectives.',
-        'Maintained documentation and issue tracking, reducing resolution time for recurring production issues.',
+       'Resolved 20+ real-time production incidents per month for a client-facing web application, ensuring minimal downtime and smooth business operations.',
+       'Investigated and troubleshot REST API issues using Postman, validating responses, status codes, and backend service functionality.'
+       'Coordinated with clients and cross-functional teams through online meetings and Microsoft Teams calls to analyze and resolve application-related issues.',
+       'Monitored and supported live production applications by identifying root causes, tracking incidents, and ensuring timely issue resolution within SLA timelines.',
+       'Performed database-level validations using SQL and MySQL to verify application data and assist in troubleshooting production issues.',
+       'Worked closely with senior developers to understand newly introduced features, application updates, and workflow changes in the production environment.',
+       'Maintained incident reports and issue documentation to improve troubleshooting efficiency and support recurring issue resolution.',
+       'Participated in Agile/Scrum activities including daily stand-ups, sprint discussions, and team collaboration for production support operations.',
       ],
     },
 
