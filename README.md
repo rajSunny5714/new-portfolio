@@ -8,8 +8,6 @@ This portfolio showcases my experience, projects, technical skills, education, a
 
 ## 🌐 Live Demo: https://new-portfolio-ivory-pi.vercel.app
 
-🔗 Portfolio Live: https://new-portfolio-pi-liard.vercel.app/
-
 ---
 
 ## ✨ Features
