@@ -186,7 +186,7 @@ const Blackboard = () => {
   };
 
   return (
-    <div className="h-[900px] md:h-[900px] w-full bg-[#2a2a2a] border-8 border-custom-yellow rounded-3xl shadow-neo relative overflow-hidden group">
+    <div className="h-[700px] md:h-[900px] w-full bg-[#2a2a2a] border-8 border-custom-yellow rounded-3xl shadow-neo relative overflow-hidden group">
 
       <div className="absolute inset-0 pointer-events-none opacity-20 bg-[url('https://www.transparenttextures.com/patterns/black-chalk.png')]"></div>
 
