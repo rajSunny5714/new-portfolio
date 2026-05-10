@@ -64,7 +64,7 @@ const Experience = () => {
       color: 'bg-custom-yellow',
       points: [
        'Resolved 20+ real-time production incidents per month for a client-facing web application, ensuring minimal downtime and smooth business operations.',
-       'Investigated and troubleshot REST API issues using Postman, validating responses, status codes, and backend service functionality.'
+       'Investigated and troubleshot REST API issues using Postman, validating responses, status codes, and backend service functionality.',
        'Coordinated with clients and cross-functional teams through online meetings and Microsoft Teams calls to analyze and resolve application-related issues.',
        'Monitored and supported live production applications by identifying root causes, tracking incidents, and ensuring timely issue resolution within SLA timelines.',
        'Performed database-level validations using SQL and MySQL to verify application data and assist in troubleshooting production issues.',
