@@ -69,7 +69,7 @@ const Hero = () => {
         <div className="w-full flex flex-col gap-3 mt-6">
 
           <a
-            href="https://drive.google.com/file/d/1oVtuYJv2X1QjKIrNQKW-KJxS2RuNeG8d/view"
+            href="https://drive.google.com/file/d/1ONaXqVWtgZLdZEpUWJuDfhSryU7Id3nT/view"
             download
             className="bg-custom-green w-full py-3 rounded-xl border-2 border-black font-bold shadow-neo-sm hover:translate-y-1 hover:shadow-none transition-all flex items-center justify-center gap-2"
           >
@@ -109,7 +109,7 @@ const Hero = () => {
           </a>
 
           <a
-            href="https://leetcode.com/u/mrsj5714/"
+            href="https://leetcode.com/u/rajSunny5714"
             target="_blank"
             rel="noreferrer"
             className="hover:scale-110 transition-transform text-orange-600"
