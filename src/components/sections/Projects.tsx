@@ -88,7 +88,7 @@ const Projects = () => {
         'AWS',
       ],
       github:
-        'https://github.com/rajSunny5714/FullStack-Java-Development-With-E-Com-Project',
+        'https://github.com/rajSunny5714/FullStack_ECommerce-Project',
       link: '',
       description: [
         'Built a production-grade Full Stack eCommerce application using Spring Boot and React.js.',
