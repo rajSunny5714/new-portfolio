@@ -69,7 +69,7 @@ const Hero = () => {
         <div className="w-full flex flex-col gap-3 mt-6">
 
           <a
-            href="https://drive.google.com/file/d/1mMGXXqGHPLjgGm9m6LRSGr3Jr-yhiVYy/view"
+            href="https://drive.google.com/file/d/1sIjkhYI3n_9P41bnIjXQF_l9aL5twjr4/view"
             download
             className="bg-custom-green w-full py-3 rounded-xl border-2 border-black font-bold shadow-neo-sm hover:translate-y-1 hover:shadow-none transition-all flex items-center justify-center gap-2"
           >
