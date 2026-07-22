@@ -73,7 +73,9 @@ const Skills = () => {
           color="bg-custom-blue"
           skills={[
             'React.js',
+            'Redux Toolkit (RTK)'
             'CSS3',
+            'HTML5',
             'Tailwind CSS',
           ]}
         />
@@ -136,6 +138,8 @@ const Skills = () => {
             'Gradle',
             'Git',
             'GitHub',
+            'JIRA',
+            'ServiceNow',
             'Eclipse',
             'Vercel',
             'Render',
