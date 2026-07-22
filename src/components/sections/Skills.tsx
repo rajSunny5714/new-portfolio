@@ -90,6 +90,7 @@ const Skills = () => {
             'SAML 2.0',
             'RBAC',
             'IAM (Okta)',
+            'SSO & MFA'
           ]}
         />
 
@@ -102,6 +103,7 @@ const Skills = () => {
             'RAG',
             'OpenAI API',
             'Chainlit',
+            'Streamlit',
           ]}
         />
 
@@ -111,7 +113,7 @@ const Skills = () => {
           skills={[
             'MySQL',
             'PostgreSQL',
-            'AWS (EC2, S3)',
+            'AWS (EC2, S3, Lambda)',
             'Docker',
           ]}
         />
