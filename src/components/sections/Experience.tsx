@@ -63,14 +63,12 @@ const Experience = () => {
       location: 'Delhi, India',
       color: 'bg-custom-yellow',
       points: [
-       'Resolved 20+ real-time production incidents per month for a client-facing web application, ensuring minimal downtime and smooth business operations.',
-       'Investigated and troubleshot REST API issues using Postman, validating responses, status codes, and backend service functionality.',
-       'Coordinated with clients and cross-functional teams through online meetings and Microsoft Teams calls to analyze and resolve application-related issues.',
-       'Monitored and supported live production applications by identifying root causes of issues, tracking incidents through ticketing systems, analyzing application logs and API responses, and ensuring timely resolution within SLA timelines to maintain application stability and business continuity.',
-       'Worked closely with senior developers to understand newly introduced features, application updates, and workflow changes in the real time production environment.',
-       'Maintained incident reports and issue documentation to improve troubleshooting efficiency and support recurring issue resolution.',
-       'Participated in Agile/Scrum activities including daily stand-ups, sprint discussions, and team collaboration for production support operations.',
-      ],
+        'Resolved 10+ high-priority (P1/P2) production incidents every month while maintaining 99.9% SLA compliance. Performed root cause analysis (RCA), SQL validation, log analysis, and API debugging to ensure minimal service downtime.',
+        'Developed and maintained 15+ RESTful APIs using Java, Spring Boot, Spring Data JPA, Hibernate, and SQL for product, inventory, order, and payment modules following clean architecture and REST best practices.',
+        'Optimized backend performance by improving complex SQL queries, resolving the Hibernate N+1 query problem, and implementing Redis caching, achieving nearly 25% faster API response times while reducing database load by approximately 30%.',
+        'Wrote unit and integration tests using JUnit 5 and Mockito, participated in code reviews, and improved application reliability and maintainability.',
+        'Collaborated with cross-functional Agile teams to deliver sprint features, perform code reviews, validate APIs using Postman, manage deployments with Git, and handle production support through ServiceNow and application monitoring tools.',
+        ],
     },
 
     {
