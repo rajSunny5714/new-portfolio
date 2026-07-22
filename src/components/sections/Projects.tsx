@@ -98,6 +98,27 @@ const Projects = () => {
         'Gained hands-on experience with cloud deployment practices using AWS.',
       ],
     },
+    {
+      title: 'E-Commerce Platform',
+      color: 'bg-custom-purple',
+      tools: [
+        'Python',
+        'Streamlit',
+        'LLM',
+        'AI-Agent',
+        'groq api',
+        'tavily-api',
+      ],
+      github:
+        'https://github.com/rajSunny5714/Multi-Agent-AI-Tool'
+      link: 'https://multi-agent-ai-tool.streamlit.app/',
+      description: [
+        'Developed an AI-powered Multi-Agent Research Platform using Python, Streamlit, LangChain, Groq LLM, Tavily Search, BeautifulSoup, and ReportLab, automating end-to-end research report generation.',
+        'Designed a 4-agent workflow (Search, Reader, Writer, Critic) that automates web search, content extraction, report generation, and AI-based quality review, reducing manual research effort by ~80%.',
+        'Integrated Tavily Search API and web scraping to retrieve and process information from 5+ trusted sources per query, generating structured reports with downloadable PDF and Markdown formats.',
+        'Built a responsive Streamlit UI featuring dynamic workflow tracking, progress indicators, API-key validation, and session management, improving usability and enabling report generation in under 30 seconds for typical research topics.',
+      ],
+    },
 
     {
       title: 'ChatBot AI',
