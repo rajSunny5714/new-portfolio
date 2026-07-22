@@ -73,7 +73,7 @@ const Skills = () => {
           color="bg-custom-blue"
           skills={[
             'React.js',
-            'Redux Toolkit (RTK)'
+            'Redux Toolkit (RTK)',
             'CSS3',
             'HTML5',
             'Tailwind CSS',
