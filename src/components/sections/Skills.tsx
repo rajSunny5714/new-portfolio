@@ -115,6 +115,8 @@ const Skills = () => {
             'PostgreSQL',
             'AWS (EC2, S3, Lambda)',
             'Docker',
+            'Kubernets',
+            'Kafka',
           ]}
         />
 
@@ -124,13 +126,13 @@ const Skills = () => {
           skills={[
             'DSA',
             'OOPs',
-            'DBMS',
             'Operating Systems',
+            'Computer Networks',
           ]}
         />
 
         <SkillCategory
-          title="Tools & Methodologies"
+          title="Developer Tools & Methodologies"
           color="bg-orange-300"
           skills={[
             'IntelliJ IDEA',
@@ -141,6 +143,8 @@ const Skills = () => {
             'Git',
             'GitHub',
             'JIRA',
+            'JUnit',
+            'Mockito',
             'ServiceNow',
             'Eclipse',
             'Vercel',
