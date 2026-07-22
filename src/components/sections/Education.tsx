@@ -268,8 +268,8 @@ const Education = () => {
     {
       year: '2025 - 2027',
       title: 'Master of Computer Applications (MCA)',
-      place:
-        'Indian Institute of Technology, Patna (Regular Hybrid Programme conducted in collaboration with IIT Patna & IIIT, Ranchi)',
+      place: 
+        'IIT Patna & IIIT Ranchi, Patna (Full Time Hybrid Programme conducted in collaboration with IIT Patna & IIIT Ranchi)',
       color: 'bg-purple-100',
       details: (
         <ul className="list-disc list-inside space-y-1">
