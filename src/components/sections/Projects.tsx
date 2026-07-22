@@ -110,7 +110,7 @@ const Projects = () => {
         'tavily-api',
       ],
       github:
-        'https://github.com/rajSunny5714/Multi-Agent-AI-Tool'
+        'https://github.com/rajSunny5714/Multi-Agent-AI-Tool',
       link: 'https://multi-agent-ai-tool.streamlit.app/',
       description: [
         'Developed an AI-powered Multi-Agent Research Platform using Python, Streamlit, LangChain, Groq LLM, Tavily Search, BeautifulSoup, and ReportLab, automating end-to-end research report generation.',
