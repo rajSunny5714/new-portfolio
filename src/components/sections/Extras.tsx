@@ -46,7 +46,7 @@ const Extras = () => {
                   </h3>
 
                   <p className="font-medium text-sm mt-1">
-                    Solved 250+ DSA problems on LeetCode.
+                    Solved 350+ DSA problems on LeetCode.
                   </p>
                 </div>
               </div>
@@ -103,24 +103,33 @@ const Extras = () => {
           <div className="space-y-4">
 
             <div className="bg-custom-yellow border-2 border-black rounded-xl p-4 font-bold">
-              AWS Certified Cloud Practitioner — AWS (2026)
+              AWS Certified Solutions Architect Associate — AWS
+            </div>
+            
+            <div className="bg-custom-yellow border-2 border-black rounded-xl p-4 font-bold">
+              Microsoft Identity and Access Administrator (SC-300) — Microsoft
+            </div>
+            
+            <div className="bg-custom-yellow border-2 border-black rounded-xl p-4 font-bold">
+               SQL Certificate — HackerRank
+            </div>
+            
+            <div className="bg-custom-yellow border-2 border-black rounded-xl p-4 font-bold">
+              GitHub Foundations (GH-900) — Microsoft
+            </div>
+            
+            <div className="bg-custom-yellow border-2 border-black rounded-xl p-4 font-bold">
+              Agentic AI Foundations Associate — Oracle
+            </div>
+            
+            <div className="bg-custom-pink border-2 border-black rounded-xl p-4 font-bold">
+              Microsoft Security, Compliance, and Identity Fundamentals (SC-900) — Microsoft
             </div>
 
             <div className="bg-custom-pink border-2 border-black rounded-xl p-4 font-bold">
-              Full Stack Java Development — Udemy (2025)
+              Full Stack Java Development — Udemy
             </div>
-
-            <div className="bg-custom-green border-2 border-black rounded-xl p-4 font-bold">
-              SQL and Database Management — Udemy (2025)
-            </div>
-
-            <div className="bg-custom-blue border-2 border-black rounded-xl p-4 font-bold">
-              Git (Version Control System) — LinkedIn Learning (2025)
-            </div>
-
-            <div className="bg-custom-blue border-2 border-black rounded-xl p-4 font-bold">
-              Generative AI — LinkedIn Learning (2025)
-            </div>
+            
           </div>
         </div>
 
