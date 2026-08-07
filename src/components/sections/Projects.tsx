@@ -118,30 +118,6 @@ const Projects = () => {
         'Integrated Tavily Search API and web scraping to retrieve and process information from 5+ trusted sources per query, generating structured reports with downloadable PDF and Markdown formats.',
       ],
     },
-
-    {
-      title: 'ChatBot AI',
-      color: 'bg-custom-blue',
-      tools: [
-        'Python',
-        'LangChain',
-        'Chainlit',
-        'LLM',
-        'RAG',
-        'Hugging Face',
-      ],
-      github:
-        'https://github.com/rajSunny5714/local-llm-crash-course',
-      link: '',
-      description: [
-        'Built an AI-powered chatbot using modern LLM technologies and conversational AI concepts.',
-        'Implemented conversational memory and real-time response streaming.',
-        'Applied prompt engineering techniques for improved AI responses.',
-        'Integrated Hugging Face models with interactive chat UI using Chainlit.',
-        'Explored real-world AI application development workflows.',
-      ],
-    },
-
     {
       title: 'URL Shortener Platform',
       color: 'bg-custom-red',
@@ -163,6 +139,29 @@ const Projects = () => {
         'Implemented Spring Security and responsive frontend using Tailwind CSS.',
         'Containerized application using Docker for deployment consistency.',
         'Integrated cloud deployment workflow using AWS, Render, and Vercel.',
+      ],
+    },
+
+     {
+      title: 'ChatBot AI',
+      color: 'bg-custom-blue',
+      tools: [
+        'Python',
+        'LangChain',
+        'Chainlit',
+        'LLM',
+        'RAG',
+        'Hugging Face',
+      ],
+      github:
+        'https://github.com/rajSunny5714/local-llm-crash-course',
+      link: '',
+      description: [
+        'Built an AI-powered chatbot using modern LLM technologies and conversational AI concepts.',
+        'Implemented conversational memory and real-time response streaming.',
+        'Applied prompt engineering techniques for improved AI responses.',
+        'Integrated Hugging Face models with interactive chat UI using Chainlit.',
+        'Explored real-world AI application development workflows.',
       ],
     },
 
