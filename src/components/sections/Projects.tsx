@@ -99,7 +99,7 @@ const Projects = () => {
       ],
     },
     {
-      title: 'E-Commerce Platform',
+      title: 'Multi Agent AI Tool',
       color: 'bg-custom-purple',
       tools: [
         'Python',
@@ -116,7 +116,6 @@ const Projects = () => {
         'Developed an AI-powered Multi-Agent Research Platform using Python, Streamlit, LangChain, Groq LLM, Tavily Search, BeautifulSoup, and ReportLab, automating end-to-end research report generation.',
         'Designed a 4-agent workflow (Search, Reader, Writer, Critic) that automates web search, content extraction, report generation, and AI-based quality review, reducing manual research effort by ~80%.',
         'Integrated Tavily Search API and web scraping to retrieve and process information from 5+ trusted sources per query, generating structured reports with downloadable PDF and Markdown formats.',
-        'Built a responsive Streamlit UI featuring dynamic workflow tracking, progress indicators, API-key validation, and session management, improving usability and enabling report generation in under 30 seconds for typical research topics.',
       ],
     },
 
