@@ -58,23 +58,33 @@ const Experience = () => {
   const experienceData = [
     {
       company: 'Tata Consultancy Services (TCS)',
-      role: 'Programmer - Fullstack Engineer',
+      role: 'Programmer',
       duration: 'Jan 2025 - Present',
       location: 'Delhi, India',
       color: 'bg-custom-yellow',
       points: [
-        'Resolved 10+ high-priority (P1/P2) production incidents every month while maintaining 99.9% SLA compliance. Performed root cause analysis (RCA), SQL validation, log analysis, and API debugging to ensure minimal service downtime.',
-        'Developed and maintained 15+ RESTful APIs using Java, Spring Boot, Spring Data JPA, Hibernate, and SQL for product, inventory, order, and payment modules following clean architecture and REST best practices.',
-        'Optimized backend performance by improving complex SQL queries, resolving the Hibernate N+1 query problem, and implementing Redis caching, achieving nearly 25% faster API response times while reducing database load by approximately 30%.',
-        'Wrote unit and integration tests using JUnit 5 and Mockito, participated in code reviews, and improved application reliability and maintainability.',
-        'Collaborated with cross-functional Agile teams to deliver sprint features, perform code reviews, validate APIs using Postman, manage deployments with Git, and handle production support through ServiceNow and application monitoring tools.',
+        'Resolved 5–10 application incidents daily through ServiceNow by performing monitoring, troubleshooting, log analysis, and root-cause analysis while maintaining 99.9% SLA compliance.',
+        'Managed user access provisioning and revocation for enterprise applications, supporting 100+ access requests monthly while following least-privilege and security compliance practices.',
+        'Collaborated with clients and cross-functional engineering teams to troubleshoot production issues, identify recurring failures, and improve application reliability.',
         ],
     },
 
     {
       company: 'Tata Consultancy Services (TCS)',
+      role: 'Analyst -- Graduate Trainee',
+      duration: '',
+      location: 'Noida, Uttar Pradesh, India',
+      color: 'bg-custom-pink',
+      points: [
+        'Improved HEREMapsdataqualityby15%bydevelopingPython automation with Pandas and NumPy to validate, clean, and process 50K+ geospatial records.',
+        'Audited and optimized 5,000+ Points of Interest using advanced SQL queries and data-validation techniques, increasing search accuracy by 12% and reducing manual review effort by 35%.',
+      ],
+    },
+
+    {
+      company: 'Tata Consultancy Services (TCS)',
       role: 'Graduate Trainee',
-      duration: 'Jan 2025 - May 2025',
+      duration: '',
       location: 'Chennai, Tamil Nadu, India',
       color: 'bg-custom-pink',
       points: [
