@@ -6,7 +6,6 @@ import Projects from './components/sections/Projects';
 import Education from './components/sections/Education';
 import Extras from './components/sections/Extras';
 import Footer from './components/layout/Footer';
-import CustomCursor from './components/ui/CustomCursor';
 import Marquee from './components/ui/Marquee';
 import Preloader from './components/ui/Preloader';
 import MiniTerminal from './components/ui/MiniTerminal';
