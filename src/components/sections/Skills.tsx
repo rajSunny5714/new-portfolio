@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import {
   FaGithub,
   FaLinkedin,
+  FaCode,
   FaDownload,
   FaEnvelope,
 } from 'react-icons/fa';
+
 import {
   SiHackerrank,
   SiLeetcode,
@@ -73,7 +75,7 @@ const Hero = () => {
         <div className="w-full flex flex-col gap-3 mt-6">
 
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1_12H2snrWiF7FJ0TH5PfuaCeiOpMchkW/view"
             download
             className="bg-custom-green w-full py-3 rounded-xl border-2 border-black font-bold shadow-neo-sm hover:translate-y-1 hover:shadow-none transition-all flex items-center justify-center gap-2"
           >
@@ -143,10 +145,7 @@ const Hero = () => {
       </div>
 
       {/* RIGHT SECTION */}
-      <div
-        className="w-full md:w-2/3 flex flex-col gap-6"
-        id="about"
-      >
+      <div className="w-full md:w-2/3 flex flex-col gap-6" id="about">
 
         <div className="bg-custom-yellow p-6 md:p-10 rounded-3xl border-4 border-black shadow-neo">
 
@@ -157,49 +156,47 @@ const Hero = () => {
           <p className="text-lg font-medium leading-relaxed mb-4">
             I am a{' '}
             <span className="font-bold bg-white px-1 border border-black">
-              Java Full Stack Developer
+              Java FullStack Developer
             </span>{' '}
-            with 1.5+ years of experience at TCS, specializing in building scalable backend and web applications using Java, Spring Boot, React.js, and REST APIs.
+            with 1.5+ years of hands-on experience in building scalable web applications using Spring Boot, React.js, and REST APIs.
           </p>
 
           <p className="text-lg font-medium leading-relaxed mb-4">
-            I have hands-on experience in{' '}
+            I have strong experience in backend development, secure authentication using{' '}
             <span className="font-bold bg-white px-1 border border-black">
-              backend development, IAM & application security
+              JWT, SAML & OAuth 2.0
             </span>{' '}
-            with technologies including Spring Security, JWT, OAuth 2.0, SAML, RBAC, SSO, MFA, and enterprise access management.
+            along with database management using MySQL, JDBC, Hibernate, and JPA.
           </p>
 
           <p className="text-lg font-medium leading-relaxed mb-4">
-            I also build AI-powered applications using{' '}
+            I am also exploring AI-powered applications using{' '}
             <span className="font-bold bg-white px-1 border border-black">
-              LLMs, LangChain, RAG & AI Agents
+              LLM, RAG & LangChain
             </span>{' '}
-            and have experience with AWS, Docker, Kubernetes, Kafka, Redis, and modern cloud-native technologies.
+            while continuously improving my skills in cloud technologies, scalable systems, and cybersecurity.
           </p>
 
           <p className="text-lg font-medium leading-relaxed mb-4">
-            Currently pursuing my{' '}
+            Currently pursuing{' '}
             <span className="font-bold bg-white px-1 border border-black">
               MCA
             </span>{' '}
-            through the Hybrid Full-Time Programme conducted by{' '}
+            through the Regular Hybrid Programme conducted in collaboration with{' '}
             <span className="font-bold bg-white px-1 border border-black">
-              IIT Patna & IIIT Ranchi
+              IIIT Ranchi & IIT Patna
             </span>.
           </p>
 
           <div className="bg-white p-4 border-2 border-black rounded-xl inline-block font-bold shadow-neo-sm">
-            🚀 Open to Java Backend, Full Stack & IAM Engineer Roles
+            🚀 Open to Backend, FullStack Developer & IAM Entry-Level Roles
           </div>
-
         </div>
 
         <MiniTerminal />
 
       </div>
 
-      {/* CONTACT MODAL */}
       <ContactModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
