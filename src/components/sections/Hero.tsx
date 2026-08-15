@@ -141,62 +141,64 @@ const Hero = () => {
       </div>
 
       {/* RIGHT SECTION */}
-     <div className="w-full md:w-2/3 flex flex-col gap-6" id="about">
-        <div className="bg-custom-yellow p-6 md:p-10 rounded-3xl border-4 border-black shadow-neo">
-          <h2 className="text-4xl font-shrikhand mb-6">
-            Hi people! 👋
-          </h2>
-      
-          <p className="text-lg font-medium leading-relaxed mb-4">
-            I am a{' '}
-            <span className="font-bold bg-white px-1 border border-black">
-              Java Full Stack Developer
-            </span>{' '}
-            with 1.5+ years of experience at TCS, specializing in building scalable backend and web applications using Java, Spring Boot, React.js, and REST APIs.
-          </p>
-      
-          <p className="text-lg font-medium leading-relaxed mb-4">
-            I have hands-on experience in{' '}
-            <span className="font-bold bg-white px-1 border border-black">
-              backend development, IAM & application security
-            </span>{' '}
-            with technologies including Spring Security, JWT, OAuth 2.0, SAML, RBAC, SSO, MFA, and enterprise access management.
-          </p>
-      
-          <p className="text-lg font-medium leading-relaxed mb-4">
-            I also build AI-powered applications using{' '}
-            <span className="font-bold bg-white px-1 border border-black">
-              LLMs, LangChain, RAG & AI Agents
-            </span>{' '}
-            and have experience with AWS, Docker, Kubernetes, Kafka, Redis, and modern cloud-native technologies.
-          </p>
-      
-          <p className="text-lg font-medium leading-relaxed mb-4">
-            Currently pursuing my{' '}
-            <span className="font-bold bg-white px-1 border border-black">
-              MCA
-            </span>{' '}
-            through the Hybrid Full-Time Programme conducted by{' '}
-            <span className="font-bold bg-white px-1 border border-black">
-              IIT Patna & IIIT Ranchi
-            </span>.
-          </p>
-      
-          <div className="bg-white p-4 border-2 border-black rounded-xl inline-block font-bold shadow-neo-sm">
-            🚀 Open to Java Backend, Full Stack & IAM Engineer Roles
+        <div
+          className="w-full md:w-2/3 flex flex-col gap-6"
+          id="about"
+        >
+          <div className="bg-custom-yellow p-6 md:p-10 rounded-3xl border-4 border-black shadow-neo">
+
+            <h2 className="text-4xl font-shrikhand mb-6">
+              Hi people! 👋
+            </h2>
+
+            <p className="text-lg font-medium leading-relaxed mb-4">
+              I am a{' '}
+              <span className="font-bold bg-white px-1 border border-black">
+                Java Full Stack Developer
+              </span>{' '}
+              with 1.5+ years of experience at TCS, specializing in building scalable backend and web applications using Java, Spring Boot, React.js, and REST APIs.
+            </p>
+
+            <p className="text-lg font-medium leading-relaxed mb-4">
+              I have hands-on experience in{' '}
+              <span className="font-bold bg-white px-1 border border-black">
+                backend development, IAM & application security
+              </span>{' '}
+              with technologies including Spring Security, JWT, OAuth 2.0, SAML, RBAC, SSO, MFA, and enterprise access management.
+            </p>
+
+            <p className="text-lg font-medium leading-relaxed mb-4">
+              I also build AI-powered applications using{' '}
+              <span className="font-bold bg-white px-1 border border-black">
+                LLMs, LangChain, RAG & AI Agents
+              </span>{' '}
+              and have experience with AWS, Docker, Kubernetes, Kafka, Redis, and modern cloud-native technologies.
+            </p>
+
+            <p className="text-lg font-medium leading-relaxed mb-4">
+              Currently pursuing my{' '}
+              <span className="font-bold bg-white px-1 border border-black">
+                MCA
+              </span>{' '}
+              through the Hybrid Full-Time Programme conducted by{' '}
+              <span className="font-bold bg-white px-1 border border-black">
+                IIT Patna & IIIT Ranchi
+              </span>.
+            </p>
+
+            <div className="bg-white p-4 border-2 border-black rounded-xl inline-block font-bold shadow-neo-sm">
+              🚀 Open to Java Backend, Full Stack & IAM Engineer Roles
+            </div>
           </div>
+
+          <MiniTerminal />
         </div>
-      </div>
-
-        <MiniTerminal />
-
       </div>
 
       <ContactModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
       />
-
     </section>
   );
 };
