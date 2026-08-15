@@ -41,119 +41,111 @@ const Skills = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
          <SkillCategory
-          title="Programming & Backend"
-          color="bg-custom-pink"
-          skills={[
-            'Java',
-            'Python',
-            'SQL',
-          ]}
-        />
-
-        <SkillCategory
-          title="Programming & Backend"
-          color="bg-custom-pink"
-          skills={[
-            'Java',
-            'Spring Boot',
-            'Spring MVC',
-            'Spring AI',
-            'Spring Security',
-            'REST APIs',
-            'JDBC',
-            'Hibernate',
-            'JPA',
-            'Microservices',
-            'System Design',
-          ]}
-        />
-
-        <SkillCategory
-          title="Frontend"
-          color="bg-custom-blue"
-          skills={[
-            'React.js',
-            'Redux Toolkit (RTK)',
-            'CSS3',
-            'HTML5',
-            'Tailwind CSS',
-          ]}
-        />
-
-        <SkillCategory
-          title="Security"
-          color="bg-custom-green"
-          skills={[
-            'Spring Security',
-            'JWT',
-            'OAuth 2.0',
-            'SAML 2.0',
-            'RBAC',
-            'IAM (Okta)',
-            'SSO & MFA'
-          ]}
-        />
-
-        <SkillCategory
-          title="AI / ML"
-          color="bg-custom-yellow"
-          skills={[
-            'LLM',
-            'LangChain',
-            'RAG',
-            'OpenAI API',
-            'Chainlit',
-            'Streamlit',
-          ]}
-        />
-
-        <SkillCategory
-          title="Databases & Cloud"
-          color="bg-custom-red"
-          skills={[
-            'MySQL',
-            'PostgreSQL',
-            'AWS (EC2, S3, Lambda)',
-            'Docker',
-            'Kubernets',
-            'Kafka',
-          ]}
-        />
-
-        <SkillCategory
-          title="Core CS"
-          color="bg-purple-300"
-          skills={[
-            'DSA',
-            'OOPs',
-            'Operating Systems',
-            'Computer Networks',
-          ]}
-        />
-
-        <SkillCategory
-          title="Developer Tools & Methodologies"
-          color="bg-orange-300"
-          skills={[
-            'IntelliJ IDEA',
-            'VS Code',
-            'Postman',
-            'Maven',
-            'Gradle',
-            'Git',
-            'GitHub',
-            'JIRA',
-            'JUnit',
-            'Mockito',
-            'ServiceNow',
-            'Eclipse',
-            'Vercel',
-            'Render',
-            'Netlify',
-            'Agile',
-            'Scrum',
-          ]}
-        />
+            title="Programming Languages"
+            color="bg-custom-pink"
+            skills={[
+              'Java',
+              'Python',
+              'SQL',
+              'JavaScript',
+              'HTML5',
+              'CSS3',
+            ]}
+          />
+          
+          <SkillCategory
+            title="Backend & Frameworks"
+            color="bg-custom-pink"
+            skills={[
+              'Spring Boot',
+              'Spring Security',
+              'Spring Data JPA',
+              'Hibernate',
+              'REST APIs',
+              'Microservices',
+              'React',
+              'Redux Toolkit (RTK)',
+            ]}
+          />
+          
+          <SkillCategory
+            title="IAM & Security"
+            color="bg-custom-green"
+            skills={[
+              'OAuth 2.0',
+              'OIDC',
+              'SAML 2.0',
+              'JWT',
+              'RBAC',
+              'SSO',
+              'MFA',
+              'LDAP',
+              'Identity Federation',
+              'Microsoft Entra ID',
+              'Azure AD',
+              'Spring Security',
+              'Authentication',
+              'Authorization',
+              'Secure Coding',
+            ]}
+          />
+          
+          <SkillCategory
+            title="AI & GenAI -- Concepts"
+            color="bg-custom-yellow"
+            skills={[
+              'LLMs',
+              'LangChain',
+              'Generative AI',
+              'Prompt Engineering',
+              'RAG',
+              'AI Agents',
+            ]}
+          />
+          
+          <SkillCategory
+            title="Databases, Cloud & DevOps"
+            color="bg-custom-red"
+            skills={[
+              'MySQL',
+              'PostgreSQL',
+              'Redis',
+              'AWS,
+              'Docker',
+              'Kubernetes',
+              'Kafka',
+            ]}
+          />
+          
+          <SkillCategory
+            title="Core CS & Networking"
+            color="bg-purple-300"
+            skills={[
+              'Data Structures & Algorithms',
+              'Object-Oriented Programming',
+              'TCP/IP',
+              'HTTP/HTTPS',
+              'DNS',
+              'SSL/TLS',
+            ]}
+          />
+          
+          <SkillCategory
+            title="Developer Tools & Practices"
+            color="bg-orange-300"
+            skills={[
+              'Git',
+              'GitHub',
+              'Maven',
+              'Gradle',
+              'JUnit',
+              'ServiceNow',
+              'JIRA',
+              'Postman',
+              'ITIL',
+              'Incident Management',
+            ]}
+          />
       </div>
     </section>
   );
