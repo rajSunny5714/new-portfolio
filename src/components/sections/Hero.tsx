@@ -7,7 +7,7 @@ import {
   FaEnvelope,
 } from 'react-icons/fa';
 
-import { SiHackerrank } from "react-icons/si";
+import { SiHackerrank, SiLeetcode, SiCodingninjas } from "react-icons/si";
 
 import ContactModal from '../ui/ContactModal';
 import MiniTerminal from '../ui/MiniTerminal';
@@ -116,7 +116,7 @@ const Hero = () => {
             rel="noreferrer"
             className="hover:scale-110 transition-transform text-orange-600"
           >
-            <FaCode />
+            <SiLeetcode size={25} />
           </a>
 
            <a
@@ -125,7 +125,7 @@ const Hero = () => {
             rel="noreferrer"
             className="hover:scale-110 transition-transform text-orange-600"
           >
-            <FaCode />
+            <SiCodingninjas size={25} />
           </a>
 
            <a
