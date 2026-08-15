@@ -20,7 +20,7 @@ const Hero = () => {
   return (
     <section className="pt-4 pb-10 px-4 max-w-7xl mx-auto flex flex-col md:flex-row gap-8 items-start justify-center">
       <div className="w-full md:w-1/3 bg-white border-4 border-black rounded-3xl p-6 shadow-neo flex flex-col items-center text-center relative overflow-hidden">
-        <div className="absolute top-4 left-1/2 -translate-x-1/2 bg-gray-200/50 w-20 h-6 rotate-[-5deg] border border-gray-400"></div>
+        <div className="absolute top-4 left-1/2 -translate-x-1/2 bg-gray-200/50 w-20 h-6 rotate-[-5deg] border border-gray-400" />
 
         <div className="w-32 h-32 bg-custom-pink rounded-full border-4 border-black mb-4 flex items-center justify-center text-4xl overflow-hidden">
           <img
@@ -63,7 +63,7 @@ const Hero = () => {
 
         <div className="w-full flex flex-col gap-3 mt-6">
           <a
-            href="https://lookat.my_resume.com"
+            href="https://my/drive/resume.pdf"
             download
             className="bg-custom-green w-full py-3 rounded-xl border-2 border-black font-bold shadow-neo-sm hover:translate-y-1 hover:shadow-none transition-all flex items-center justify-center gap-2"
           >
@@ -135,8 +135,8 @@ const Hero = () => {
       </div>
 
       <div
-        className="w-full md:w-2/3 flex flex-col gap-6"
         id="about"
+        className="w-full md:w-2/3 flex flex-col gap-6"
       >
         <div className="bg-custom-yellow p-6 md:p-10 rounded-3xl border-4 border-black shadow-neo">
           <h2 className="text-4xl font-shrikhand mb-6">
@@ -158,8 +158,8 @@ const Hero = () => {
             <span className="font-bold bg-white px-1 border border-black">
               backend development, IAM & application security
             </span>{' '}
-            with technologies including Spring Security, JWT, OAuth 2.0, SAML,
-            RBAC, SSO, MFA, and enterprise access management.
+            with technologies including Spring Security, JWT, OAuth 2.0,
+            SAML, RBAC, SSO, MFA, and enterprise access management.
           </p>
 
           <p className="text-lg font-medium leading-relaxed mb-4">
