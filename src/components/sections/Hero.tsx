@@ -152,7 +152,7 @@ const Hero = () => {
           <p className="text-lg font-medium leading-relaxed mb-4">
             I am a{' '}
             <span className="font-bold bg-white px-1 border border-black">
-              Java FullStack Engineer
+              Java FullStack Developer
             </span>{' '}
             with 1.5+ years of hands-on experience in building scalable web applications using Spring Boot, React.js, and REST APIs.
           </p>
