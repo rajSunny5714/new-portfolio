@@ -6,6 +6,7 @@ interface EduProps {
   place: string;
   score: string;
   color: string;
+  desc: string;
 }
 
 const EduCard = ({
@@ -14,6 +15,7 @@ const EduCard = ({
   place,
   score,
   color,
+  desc,
 }: EduProps) => (
   <div
     className={`relative bg-white border-4 border-black rounded-3xl shadow-neo p-6 sm:p-8 md:p-9 ${color} min-h-[180px] md:min-h-[210px] flex items-center`}
@@ -24,21 +26,23 @@ const EduCard = ({
 
     <div className="w-full mt-4 sm:mt-2">
       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5">
-
         <div className="flex-1">
           <p className="font-bold text-base sm:text-lg text-gray-700 mb-2">
             {place}
           </p>
 
-          <h3 className="text-2xl sm:text-3xl md:text-4xl font-shrikhand leading-tight">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl font-shrikhand leading-tight mb-3">
             {title}
           </h3>
+
+          <p className="text-sm sm:text-base font-medium leading-relaxed text-gray-800 max-w-4xl">
+            {desc}
+          </p>
         </div>
 
         <div className="bg-black text-white font-mono font-bold text-sm sm:text-base px-5 py-3 rounded-xl w-fit whitespace-nowrap">
           {score}
         </div>
-
       </div>
     </div>
   </div>
@@ -52,13 +56,15 @@ const Education = () => {
       title: 'Master of Computer Applications (MCA)',
       score: 'CGPA: 7.8/10',
       color: 'bg-purple-100',
+      desc: 'I am currently pursuing a Master of Computer Applications (MCA) at IIIT Ranchi in collaboration with IIT Patna (2025–2027), where I continue to deepen my knowledge of software engineering and advanced computer science.',
     },
     {
       year: 'Jun 2021 - Jul 2024',
-      place: 'B. R. Ambedkar Bihar University, Muzaffarpur',
+      place: 'L. N. T. College, Muzaffarpur, Bihar University',
       title: 'Bachelor of Computer Applications (BCA)',
       score: '75.8%',
       color: 'bg-blue-100',
+      desc: 'I completed my Bachelor of Computer Applications (BCA) from L. N. T. College, Muzaffarpur, under Bihar University, where I built a strong foundation in computer science, programming, and software development.',
     },
   ];
 
