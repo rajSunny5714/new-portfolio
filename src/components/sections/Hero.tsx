@@ -143,45 +143,49 @@ const Hero = () => {
             Hi people! 👋
           </h2>
 
-          <p className="text-lg font-medium leading-relaxed mb-4">
-            I am a{' '}
-            <span className="font-bold bg-white px-1 border border-black">
-              Java Full Stack Developer
-            </span>{' '}
-            with 1.5+ years of experience at TCS, specializing in building
-            scalable backend and web applications using Java, Spring Boot,
-            React.js, and REST APIs.
-          </p>
-
-          <p className="text-lg font-medium leading-relaxed mb-4">
-            I have hands-on experience in{' '}
-            <span className="font-bold bg-white px-1 border border-black">
-              backend development, IAM & application security
-            </span>{' '}
-            with technologies including Spring Security, JWT, OAuth 2.0,
-            SAML, RBAC, SSO, MFA, and enterprise access management.
-          </p>
-
-          <p className="text-lg font-medium leading-relaxed mb-4">
-            I also build AI-powered applications using{' '}
-            <span className="font-bold bg-white px-1 border border-black">
-              LLMs, LangChain, RAG & AI Agents
-            </span>{' '}
-            and have experience with AWS, Docker, Kubernetes, Kafka, Redis,
-            and modern cloud-native technologies.
-          </p>
-
-          <p className="text-lg font-medium leading-relaxed mb-4">
-            Currently pursuing my{' '}
-            <span className="font-bold bg-white px-1 border border-black">
-              MCA
-            </span>{' '}
-            through the Hybrid Full-Time Programme conducted by{' '}
-            <span className="font-bold bg-white px-1 border border-black">
-              IIT Patna & IIIT Ranchi
-            </span>.
-          </p>
-
+        <p className="text-lg font-medium leading-relaxed mb-4">
+          I am a{' '}
+          <span className="font-bold bg-white px-1 border border-black">
+            Java Full Stack Developer
+          </span>{' '}
+          with 1.5+ years of experience at TCS, currently working as an Application
+          L1 Engineer – Programmer. My experience includes application monitoring,
+          incident management, troubleshooting, log analysis, root-cause analysis,
+          enterprise access management, and working with cross-functional teams to
+          improve application reliability.
+        </p>
+        
+        <p className="text-lg font-medium leading-relaxed mb-4">
+          I have hands-on experience with{' '}
+          <span className="font-bold bg-white px-1 border border-black">
+            Java, Spring Boot, REST APIs, SQL, Python, and Application Security
+          </span>{' '}
+          along with IAM concepts including JWT, OAuth 2.0, SAML, RBAC, SSO, MFA,
+          access provisioning, and least-privilege access management.
+        </p>
+        
+        <p className="text-lg font-medium leading-relaxed mb-4">
+          Currently, I am strengthening my expertise in{' '}
+          <span className="font-bold bg-white px-1 border border-black">
+            Microservices, Cloud, IAM & AI
+          </span>{' '}
+          by learning and building with AWS, Docker, Kubernetes, Kafka, Redis,
+          LangChain, LLMs, RAG, and AI Agents, with a focus on developing scalable,
+          secure, and intelligent applications.
+        </p>
+        
+        <p className="text-lg font-medium leading-relaxed mb-4">
+          Currently pursuing my{' '}
+          <span className="font-bold bg-white px-1 border border-black">
+            MCA
+          </span>{' '}
+          through the Hybrid Full-Time Programme conducted by{' '}
+          <span className="font-bold bg-white px-1 border border-black">
+            IIT Patna & IIIT Ranchi
+          </span>{' '}
+          while continuously improving my skills in backend engineering, system
+          design, DSA, cloud technologies, and enterprise security.
+        </p>
           <div className="bg-white p-4 border-2 border-black rounded-xl inline-block font-bold shadow-neo-sm">
             🚀 Open to Java Backend, Full Stack & IAM Engineer Roles
           </div>
