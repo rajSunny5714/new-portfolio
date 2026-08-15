@@ -62,7 +62,7 @@ const Hero = () => {
 
         <div className="w-full flex flex-col gap-3 mt-6">
           <a
-            href="https://my/drive/resume.pdf"
+            href="https://drive.google.com/file/d/1cYi_57PZ_GoJYoB8MPi3mjlQD7CpN0NN/view"
             download
             className="bg-custom-green w-full py-3 rounded-xl border-2 border-black font-bold shadow-neo-sm hover:translate-y-1 hover:shadow-none transition-all flex items-center justify-center gap-2"
           >
