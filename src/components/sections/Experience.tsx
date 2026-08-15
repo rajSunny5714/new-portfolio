@@ -65,7 +65,7 @@ const Experience = () => {
       roles: [
         {
           role: 'Programmer',
-          location: 'Delhi, India',
+          location: 'New Delhi, Delhi, India',
           points: [
             'Resolved 5–10 application incidents daily through ServiceNow by performing monitoring, troubleshooting, log analysis, and root-cause analysis while maintaining 99.9% SLA compliance.',
             'Managed user access provisioning and revocation for enterprise applications, supporting 100+ access requests monthly while following least-privilege and security compliance practices.',
