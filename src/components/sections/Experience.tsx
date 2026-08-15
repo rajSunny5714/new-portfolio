@@ -58,41 +58,40 @@ const Experience = () => {
   const experienceData = [
     {
       company: 'Tata Consultancy Services (TCS)',
-      role: 'Programmer',
-      duration: 'Jan 2025 - Present',
-      location: 'Delhi, India',
       color: 'bg-custom-yellow',
-      points: [
-        'Resolved 5–10 application incidents daily through ServiceNow by performing monitoring, troubleshooting, log analysis, and root-cause analysis while maintaining 99.9% SLA compliance.',
-        'Managed user access provisioning and revocation for enterprise applications, supporting 100+ access requests monthly while following least-privilege and security compliance practices.',
-        'Collaborated with clients and cross-functional engineering teams to troubleshoot production issues, identify recurring failures, and improve application reliability.',
-        ],
-    },
-
-    {
-      company: 'Tata Consultancy Services (TCS)',
-      role: 'Analyst -- Graduate Trainee',
-      duration: '',
-      location: 'Noida, Uttar Pradesh, India',
-      color: 'bg-custom-pink',
-      points: [
-        'Improved HEREMapsdataqualityby15%bydevelopingPython automation with Pandas and NumPy to validate, clean, and process 50K+ geospatial records.',
-        'Audited and optimized 5,000+ Points of Interest using advanced SQL queries and data-validation techniques, increasing search accuracy by 12% and reducing manual review effort by 35%.',
-      ],
-    },
-
-    {
-      company: 'Tata Consultancy Services (TCS)',
-      role: 'Graduate Trainee',
-      duration: '',
-      location: 'Chennai, Tamil Nadu, India',
-      color: 'bg-custom-pink',
-      points: [
-        'Started professional career at TCS under the Ignite Graduate Trainee Program.',
-        'Completed intensive training focused on IT fundamentals, software development, and professional skills.',
-        'Worked on real-world projects to gain hands-on industry experience.',
-        'Strengthened knowledge in Java Fullstack Development, backend systems, and enterprise workflows.',
-        'Bridged the gap between academic learning and industry-level application development.',
+      duration: 'Jan 2025 - Present',
+      roles: [
+        {
+          role: 'Programmer',
+          duration: 'Jan 2025 - Present',
+          location: 'Delhi, India',
+          points: [
+            'Resolved 5–10 application incidents daily through ServiceNow by performing monitoring, troubleshooting, log analysis, and root-cause analysis while maintaining 99.9% SLA compliance.',
+            'Managed user access provisioning and revocation for enterprise applications, supporting 100+ access requests monthly while following least-privilege and security compliance practices.',
+            'Collaborated with clients and cross-functional engineering teams to troubleshoot production issues, identify recurring failures, and improve application reliability.',
+          ],
+        },
+        {
+          role: 'Analyst -- Graduate Trainee',
+          duration: '2024 - 2025',
+          location: 'Noida, Uttar Pradesh, India',
+          points: [
+            'Improved HERE Maps data quality by 15% by developing Python automation with Pandas and NumPy to validate, clean, and process 50K+ geospatial records.',
+            'Audited and optimized 5,000+ Points of Interest using advanced SQL queries and data-validation techniques, increasing search accuracy by 12% and reducing manual review effort by 35%.',
+          ],
+        },
+        {
+          role: 'Graduate Trainee',
+          duration: '2024',
+          location: 'Chennai, Tamil Nadu, India',
+          points: [
+            'Started professional career at TCS under the Ignite Graduate Trainee Program.',
+            'Completed intensive training focused on IT fundamentals, software development, and professional skills.',
+            'Worked on real-world projects to gain hands-on industry experience.',
+            'Strengthened knowledge in Java Fullstack Development, backend systems, and enterprise workflows.',
+            'Bridged the gap between academic learning and industry-level application development.',
+          ],
+        },
       ],
     },
   ];
