@@ -151,22 +151,6 @@ const Hero = () => {
         </p>
         
         <p className="text-lg font-medium leading-relaxed mb-4">
-          I have hands-on experience with{' '}
-          <span className="font-bold bg-white px-1 border border-black">
-            Java, Spring Boot, REST APIs, SQL, Python & Application Security
-          </span>{' '}
-          along with IAM concepts including JWT, OAuth 2.0, SAML, RBAC, SSO, and MFA.
-        </p>
-        
-        <p className="text-lg font-medium leading-relaxed mb-4">
-          Currently, I am strengthening my expertise in{' '}
-          <span className="font-bold bg-white px-1 border border-black">
-            Microservices, Cloud, IAM & AI
-          </span>{' '}
-          using AWS, Docker, Kubernetes, Kafka, Redis, LangChain, LLMs, and RAG to build scalable, secure, and intelligent applications.
-        </p>
-        
-        <p className="text-lg font-medium leading-relaxed mb-4">
           I am also pursuing my{' '}
           <span className="font-bold bg-white px-1 border border-black">
             MCA
