@@ -54,24 +54,25 @@ const Skills = () => {
           />
           
           <SkillCategory
-            title="Backend & Frameworks"
+            title="Frameworks & Libraries"
             color="bg-custom-pink"
             skills={[
               'Spring Boot',
               'Spring Security',
               'Spring Data JPA',
               'Hibernate',
-              'REST APIs',
-              'Microservices',
               'React',
               'Redux Toolkit (RTK)',
             ]}
           />
 
-        <SkillCategory
-            title="Databases, Cloud & DevOps"
+         <SkillCategory
+            title="Cloud & Backend Services"
             color="bg-custom-red"
             skills={[
+              'REST APIs',
+              'JDBC',
+              'Microservices',
               'MySQL',
               'PostgreSQL',
               'Redis',
@@ -79,9 +80,10 @@ const Skills = () => {
               'Docker',
               'Kubernetes',
               'Kafka',
+              'Swagger (OpenAPI)',
             ]}
           />
-          
+        
           <SkillCategory
             title="IAM & Security"
             color="bg-custom-green"
@@ -142,10 +144,9 @@ const Skills = () => {
               'ServiceNow',
               'JIRA',
               'Postman',
-              'ITIL',
-              'Incident Management',
             ]}
           />
+        
       </div>
     </section>
   );
