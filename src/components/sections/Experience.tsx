@@ -65,7 +65,6 @@ const Experience = () => {
       roles: [
         {
           role: 'Programmer',
-          duration: 'Jan 2025 - Present',
           location: 'Delhi, India',
           points: [
             'Resolved 5–10 application incidents daily through ServiceNow by performing monitoring, troubleshooting, log analysis, and root-cause analysis while maintaining 99.9% SLA compliance.',
@@ -75,7 +74,6 @@ const Experience = () => {
         },
         {
           role: 'Analyst -- Graduate Trainee',
-          duration: '2024 - 2025',
           location: 'Noida, Uttar Pradesh, India',
           points: [
             'Improved HERE Maps data quality by 15% by developing Python automation with Pandas and NumPy to validate, clean, and process 50K+ geospatial records.',
@@ -84,7 +82,6 @@ const Experience = () => {
         },
         {
           role: 'Graduate Trainee',
-          duration: '2024',
           location: 'Chennai, Tamil Nadu, India',
           points: [
             'Started my professional career at TCS through the Ignite Graduate Trainee Program, completing intensive training in IT fundamentals, software development, and professional skills.',
