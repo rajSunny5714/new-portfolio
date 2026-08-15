@@ -189,7 +189,6 @@ const Hero = () => {
           </div>
         </div>
 
-        <MiniTerminal />
       </div>
 
       <ContactModal
@@ -197,6 +196,7 @@ const Hero = () => {
         onClose={() => setIsModalOpen(false)}
       />
     </section>
+    <MiniTerminal />
   );
 };
 
