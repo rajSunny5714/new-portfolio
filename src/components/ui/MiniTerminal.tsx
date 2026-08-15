@@ -158,7 +158,7 @@ const MiniTerminal = () => {
             'LinkedIn: linkedin.com/in/sunny-raj-299401273'
           );
           addLine(
-            'LeetCode: leetcode.com/u/mrsj5714'
+            'LeetCode: leetcode.com/u/rajSunny5714'
           );
           break;
 
