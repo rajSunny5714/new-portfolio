@@ -74,7 +74,7 @@ const MiniTerminal = () => {
         case 'whoami':
           addLine('👨‍💻 Sunny Raj');
           addLine(
-            'Java FullStack Engineer @ TCS | MCA Student'
+            'Java FullStack Developer, Programmer @ TCS | MCA Student'
           );
           addLine(
             'Aspiring IAM & Cybersecurity Engineer'
@@ -109,26 +109,29 @@ const MiniTerminal = () => {
           addLine(
             '1. E-Commerce Platform'
           );
-          addLine(
-            '2. URL Shortener Platform'
+           addLine(
+            '2. Multi-Agent AI Search Engine'
           );
           addLine(
-            '3. ChatBot AI'
+            '3. URL Shortener Platform'
           );
           addLine(
-            '4. Modern PlayStream'
+            '4. ChatBot AI'
           );
           addLine(
-            '5. ThinkHive Edusity Web'
+            '5. Modern PlayStream'
           );
           addLine(
-            '6. Daily Expense Tracker'
+            '6. ThinkHive Edusity Web'
+          );
+          addLine(
+            '7. Daily Expense Tracker'
           );
           break;
 
         case 'experience':
           addLine(
-            '💼 Programmer - Fullstack Engineer @ TCS'
+            '💼 Programmer - @ TCS'
           );
           addLine(
             'Resolved production incidents using Java & Spring Boot.'
