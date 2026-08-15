@@ -148,8 +148,7 @@ const Hero = () => {
           <span className="font-bold bg-white px-1 border border-black">
             Java Full Stack Developer
           </span>{' '}
-          with 1.5+ years of experience at TCS, currently working as an Application
-          L1 Engineer – Programmer. My experience includes application monitoring,
+          with 1.5+ years of experience at TCS, currently working as an Programmer. My experience includes application monitoring,
           incident management, troubleshooting, log analysis, root-cause analysis,
           enterprise access management, and working with cross-functional teams to
           improve application reliability.
