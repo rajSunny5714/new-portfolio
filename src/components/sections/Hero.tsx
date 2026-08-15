@@ -7,6 +7,8 @@ import {
   FaEnvelope,
 } from 'react-icons/fa';
 
+import { SiHackerrank } from "react-icons/si";
+
 import ContactModal from '../ui/ContactModal';
 import MiniTerminal from '../ui/MiniTerminal';
 
@@ -36,7 +38,7 @@ const Hero = () => {
         </h1>
 
         <div className="bg-black text-white px-3 py-1 font-mono text-sm rounded-md mb-4 rotate-1">
-          JAVA_FULLSTACK_ENGINEER()
+          JAVA_FULLSTACK_Developer()
         </div>
 
         {/* INFO */}
@@ -124,6 +126,15 @@ const Hero = () => {
             className="hover:scale-110 transition-transform text-orange-600"
           >
             <FaCode />
+          </a>
+
+           <a
+            href="https://www.hackerrank.com/profile/rajSunny5714"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:scale-110 transition-transform text-orange-600"
+          >
+            <SiHackerrank />
           </a>
 
         </div>
