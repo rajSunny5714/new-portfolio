@@ -166,6 +166,27 @@ const Projects = () => {
     },
 
     {
+      title: 'Daily Expense Tracker',
+      color: 'bg-custom-yellow',
+      tools: [
+        'Java',
+        'Spring Boot',
+        'React.js',
+        'MySQL',
+        'REST APIs',
+      ],
+      github:
+        'https://github.com/rajSunny5714/Daily-Expense-Tracker-FullStack-Project',
+      link: 'https://budgetify-react.vercel.app/',
+      description: [
+        'Built a full-stack Daily Expense Tracker application using Spring Boot and React.js.',
+        'Implemented CRUD operations for managing expenses efficiently.',
+        'Integrated REST APIs with frontend state management workflows.',
+        'Designed a clean and responsive UI for better user experience.',
+      ],
+    },
+
+    {
       title: 'Edusity Web',
       color: 'bg-custom-pink',
       tools: [
@@ -203,26 +224,24 @@ const Projects = () => {
       ],
     },
 
-    {
-      title: 'Daily Expense Tracker',
-      color: 'bg-custom-yellow',
+     {
+      title: 'Portfolio Website',
+      color: 'bg-custom-green',
       tools: [
-        'Java',
-        'Spring Boot',
         'React.js',
-        'MySQL',
-        'REST APIs',
+        'Typescript',
+        'Tailwind CSS',
+        'UI Design',
       ],
-      github:
-        'https://github.com/rajSunny5714/Daily-Expense-Tracker-FullStack-Project',
-      link: 'https://budgetify-react.vercel.app/',
+      github: 'https://github.com/rajSunny5714/new-portfolio',
+      link: 'https://new-portfolio-ivory-pi.vercel.app/',
       description: [
-        'Built a full-stack Daily Expense Tracker application using Spring Boot and React.js.',
-        'Implemented CRUD operations for managing expenses efficiently.',
-        'Integrated REST APIs with frontend state management workflows.',
-        'Designed a clean and responsive UI for better user experience.',
+        'Built a responsive Portfolio Website using React.js and Tailwind CSS and TypeScript.',
+        'Integrated dynamic APIs for interactive video browsing experience.',
+        'Implemented routing and responsive layouts for modern UI design.',
       ],
     },
+    
   ];
 
   return (
