@@ -85,11 +85,8 @@ const Experience = () => {
           duration: '2024',
           location: 'Chennai, Tamil Nadu, India',
           points: [
-            'Started professional career at TCS under the Ignite Graduate Trainee Program.',
-            'Completed intensive training focused on IT fundamentals, software development, and professional skills.',
-            'Worked on real-world projects to gain hands-on industry experience.',
-            'Strengthened knowledge in Java Fullstack Development, backend systems, and enterprise workflows.',
-            'Bridged the gap between academic learning and industry-level application development.',
+           'Started my professional career at TCS through the Ignite Graduate Trainee Program, completing intensive training in IT fundamentals, software development, and professional skills.',
+          'Gained hands-on experience through real-world projects, strengthening my expertise in Java Full Stack Development, backend and AI systems, and enterprise workflows.'
           ],
         },
       ],
