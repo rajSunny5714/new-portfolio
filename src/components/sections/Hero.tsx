@@ -188,15 +188,16 @@ const Hero = () => {
             🚀 Open to Java Backend, Full Stack & IAM Engineer Roles
           </div>
         </div>
-
+        
       </div>
-
+      
       <ContactModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
       />
+      <MiniTerminal />
     </section>
-    <MiniTerminal />
+    
   );
 };
 
