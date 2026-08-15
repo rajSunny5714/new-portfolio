@@ -15,7 +15,7 @@ const Extras = () => {
       <div className="flex justify-center mb-10">
         <div className="bg-custom-green px-8 py-3 border-4 border-black rounded-full shadow-neo">
           <h2 className="text-3xl font-shrikhand text-black">
-            🏆 Extra-Curriculars
+            🏆 Extra Curriculars
           </h2>
         </div>
       </div>
