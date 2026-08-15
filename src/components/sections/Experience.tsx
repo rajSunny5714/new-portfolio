@@ -1,56 +1,65 @@
 import React from 'react';
 
-interface ExperienceProps {
-  company: string;
+interface Role {
   role: string;
   duration: string;
   location: string;
-  color: string;
   points: string[];
+}
+
+interface ExperienceProps {
+  company: string;
+  duration: string;
+  color: string;
+  roles: Role[];
 }
 
 const ExperienceCard = ({
   company,
-  role,
   duration,
-  location,
   color,
-  points,
+  roles,
 }: ExperienceProps) => (
   <div
     className={`bg-white border-4 border-black rounded-3xl p-6 shadow-neo hover:-translate-y-1 transition-transform ${color}`}
   >
-
-    <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-5">
-
-      <div>
-        <h3 className="text-2xl md:text-3xl font-shrikhand">
-          {company}
-        </h3>
-
-        <p className="font-bold text-base md:text-lg mt-1">
-          {role}
-        </p>
-      </div>
+    <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 mb-6">
+      <h3 className="text-2xl md:text-3xl font-shrikhand">
+        {company}
+      </h3>
 
       <div className="bg-black text-white px-4 py-2 rounded-xl border-2 border-white font-mono text-sm w-fit">
         {duration}
       </div>
     </div>
 
-    <div className="mb-5">
-      <span className="bg-custom-yellow border-2 border-black px-3 py-1 rounded-full font-bold text-sm">
-        📍 {location}
-      </span>
-    </div>
+    <div className="space-y-8">
+      {roles.map((item, index) => (
+        <div key={index} className="border-t-4 border-black pt-5">
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 mb-3">
+            <div>
+              <h4 className="text-xl md:text-2xl font-bold">
+                {item.role}
+              </h4>
 
-    <ul className="list-disc list-inside space-y-3 text-sm md:text-base font-medium leading-relaxed">
-      {points.map((point, index) => (
-        <li key={index}>
-          {point}
-        </li>
+              <p className="font-mono text-sm mt-1">
+                {item.duration}
+              </p>
+            </div>
+
+            <span className="bg-custom-yellow border-2 border-black px-3 py-1 rounded-full font-bold text-sm w-fit">
+              📍 {item.location}
+            </span>
+          </div>
+
+          <ul className="list-disc list-inside space-y-3 text-sm md:text-base font-medium leading-relaxed">
+            {item.points.map((point, pointIndex) => (
+              <li key={pointIndex}>{point}</li>
+            ))}
+          </ul>
+        </div>
       ))}
-    </ul>
+    </div>
   </div>
 );
 
