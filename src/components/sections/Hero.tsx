@@ -142,24 +142,20 @@ const Hero = () => {
             Hi people! 👋
           </h2>
 
-        <p className="text-lg font-medium leading-relaxed mb-4">
+       <p className="text-lg font-medium leading-relaxed mb-4">
           I am a{' '}
           <span className="font-bold bg-white px-1 border border-black">
             Java Full Stack Developer
           </span>{' '}
-          with 1.5+ years of experience at TCS, currently working as an Programmer. My experience includes application monitoring,
-          incident management, troubleshooting, log analysis, root-cause analysis,
-          enterprise access management, and working with cross-functional teams to
-          improve application reliability.
+          with 1.5+ years of experience at TCS, working as a Programmer with experience in application monitoring, troubleshooting, incident management, and enterprise access management.
         </p>
         
         <p className="text-lg font-medium leading-relaxed mb-4">
           I have hands-on experience with{' '}
           <span className="font-bold bg-white px-1 border border-black">
-            Java, Spring Boot, REST APIs, SQL, Python, and Application Security
+            Java, Spring Boot, REST APIs, SQL, Python & Application Security
           </span>{' '}
-          along with IAM concepts including JWT, OAuth 2.0, SAML, RBAC, SSO, MFA,
-          access provisioning, and least-privilege access management.
+          along with IAM concepts including JWT, OAuth 2.0, SAML, RBAC, SSO, and MFA.
         </p>
         
         <p className="text-lg font-medium leading-relaxed mb-4">
@@ -167,13 +163,11 @@ const Hero = () => {
           <span className="font-bold bg-white px-1 border border-black">
             Microservices, Cloud, IAM & AI
           </span>{' '}
-          by learning and building with AWS, Docker, Kubernetes, Kafka, Redis,
-          LangChain, LLMs, RAG, and AI Agents, with a focus on developing scalable,
-          secure, and intelligent applications.
+          using AWS, Docker, Kubernetes, Kafka, Redis, LangChain, LLMs, and RAG to build scalable, secure, and intelligent applications.
         </p>
         
         <p className="text-lg font-medium leading-relaxed mb-4">
-          Currently pursuing my{' '}
+          I am also pursuing my{' '}
           <span className="font-bold bg-white px-1 border border-black">
             MCA
           </span>{' '}
@@ -181,8 +175,7 @@ const Hero = () => {
           <span className="font-bold bg-white px-1 border border-black">
             IIT Patna & IIIT Ranchi
           </span>{' '}
-          while continuously improving my skills in backend engineering, system
-          design, DSA, cloud technologies, and enterprise security.
+          while continuously improving my skills in backend engineering, system design, DSA, cloud technologies, and enterprise security.
         </p>
           <div className="bg-white p-4 border-2 border-black rounded-xl inline-block font-bold shadow-neo-sm">
             🚀 Open to Java Backend, Full Stack & IAM Engineer Roles
