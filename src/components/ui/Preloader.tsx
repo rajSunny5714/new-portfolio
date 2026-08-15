@@ -8,23 +8,19 @@ const Preloader = () => {
   useEffect(() => {
     document.body.style.overflow = 'hidden';
 
-    const duration = 1400;
-    const intervalTime = 20;
-    const steps = duration / intervalTime;
-    const increment = 100 / steps;
+    const startTime = Date.now();
+    const duration = 1200;
 
     const timer = setInterval(() => {
-      setProgress((prev) => {
-        const next = prev + increment + Math.random() * 0.8;
+      const elapsed = Date.now() - startTime;
+      const percentage = Math.min((elapsed / duration) * 100, 100);
 
-        if (next >= 100) {
-          clearInterval(timer);
-          return 100;
-        }
+      setProgress(percentage);
 
-        return next;
-      });
-    }, intervalTime);
+      if (percentage >= 100) {
+        clearInterval(timer);
+      }
+    }, 20);
 
     return () => {
       clearInterval(timer);
@@ -34,17 +30,17 @@ const Preloader = () => {
 
   useEffect(() => {
     if (progress >= 100) {
-      const exitTimer = setTimeout(() => {
+      const loadTimer = setTimeout(() => {
         setIsLoaded(true);
         document.body.style.overflow = '';
-      }, 250);
+      }, 150);
 
       const removeTimer = setTimeout(() => {
         setShouldRender(false);
-      }, 1100);
+      }, 850);
 
       return () => {
-        clearTimeout(exitTimer);
+        clearTimeout(loadTimer);
         clearTimeout(removeTimer);
       };
     }
@@ -54,81 +50,37 @@ const Preloader = () => {
 
   return (
     <div
-      className={`fixed inset-0 z-[99999] flex items-center justify-center px-6 transition-all duration-700 ease-[cubic-bezier(0.76,0,0.24,1)] ${
+      className={`fixed inset-0 z-[99999] flex items-center justify-center cursor-none transition-all duration-700 ease-in-out ${
         isLoaded
-          ? 'opacity-0 -translate-y-8 scale-[1.03] pointer-events-none'
-          : 'opacity-100 translate-y-0 scale-100'
+          ? '-translate-y-full opacity-0'
+          : 'translate-y-0 opacity-100'
       }`}
       style={{
         background:
-          'radial-gradient(circle at 50% 40%, rgba(252,211,77,0.10), transparent 35%), #090909'
+          'radial-gradient(circle at center, rgba(252, 211, 77, 0.08), transparent 45%), #0a0a0a'
       }}
     >
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-yellow-400/10 rounded-full blur-[120px]" />
-        <div className="absolute bottom-1/4 right-1/4 w-72 h-72 bg-yellow-500/5 rounded-full blur-[120px]" />
-      </div>
+      <div className="absolute inset-0 bg-black/20 backdrop-blur-sm" />
 
-      <div className="relative w-full max-w-xl">
-        <div
-          className="absolute inset-0 rounded-3xl bg-yellow-400/10 blur-2xl"
-          style={{ transform: 'scale(0.9)' }}
-        />
+      <div className="relative z-10 flex flex-col items-center w-full px-6">
+        <h1 className="font-shrikhand text-5xl md:text-7xl lg:text-8xl tracking-wider text-yellow-400 drop-shadow-[0_4px_15px_rgba(250,204,21,0.15)]">
+          LOADING...
+        </h1>
 
-        <div className="relative rounded-3xl border border-white/10 bg-white/[0.06] backdrop-blur-2xl shadow-[0_25px_80px_rgba(0,0,0,0.55)] px-7 py-9 md:px-12 md:py-11">
-          <div className="flex items-center justify-between mb-8">
-            <div>
-              <p className="text-xs md:text-sm uppercase tracking-[0.35em] text-white/40 font-medium">
-                Portfolio
-              </p>
-
-              <h1 className="mt-2 text-3xl md:text-5xl font-bold tracking-tight text-white">
-                Loading
-                <span className="text-yellow-400">.</span>
-                <span className="text-yellow-400">.</span>
-                <span className="text-yellow-400">.</span>
-              </h1>
-            </div>
-
-            <div className="flex items-center justify-center w-14 h-14 md:w-16 md:h-16 rounded-2xl border border-white/10 bg-white/[0.05] backdrop-blur-xl">
-              <div className="w-6 h-6 md:w-7 md:h-7 rounded-full border-2 border-white/20 border-t-yellow-400 animate-spin" />
-            </div>
-          </div>
-
-          <div className="flex items-end justify-between mb-3">
-            <span className="text-sm text-white/40 tracking-wide">
-              Preparing experience
-            </span>
-
-            <span className="text-lg md:text-xl font-semibold text-yellow-400 tabular-nums">
-              {Math.floor(progress)}%
-            </span>
-          </div>
-
-          <div className="h-2 w-full rounded-full bg-white/[0.08] border border-white/[0.08] overflow-hidden">
-            <div
-              className="h-full rounded-full bg-gradient-to-r from-yellow-500 via-yellow-400 to-yellow-300 transition-[width] duration-100 ease-out shadow-[0_0_20px_rgba(250,204,21,0.35)]"
-              style={{ width: `${progress}%` }}
-            />
-          </div>
-
-          <div className="flex items-center gap-2 mt-6">
-            <div className="w-1.5 h-1.5 rounded-full bg-yellow-400 animate-pulse" />
-            <span className="text-xs text-white/30 tracking-wider">
-              {progress < 35
-                ? 'Initializing...'
-                : progress < 70
-                ? 'Loading assets...'
-                : progress < 100
-                ? 'Almost ready...'
-                : 'Welcome'}
-            </span>
-          </div>
+        <div className="mt-5 mb-4">
+          <span className="font-mono text-lg md:text-xl font-semibold text-white/80">
+            {Math.floor(progress)}%
+          </span>
         </div>
 
-        <p className="text-center text-xs text-white/20 mt-6 tracking-[0.2em] uppercase">
-          Built with passion
-        </p>
+        <div className="w-[280px] md:w-[450px] lg:w-[520px] h-4 md:h-5 p-[2px] rounded-full border border-white/20 bg-white/[0.04] backdrop-blur-xl shadow-[0_0_30px_rgba(0,0,0,0.4)]">
+          <div
+            className="h-full rounded-full bg-yellow-400/90 shadow-[0_0_18px_rgba(250,204,21,0.35)] transition-[width] duration-75 ease-linear"
+            style={{
+              width: `${progress}%`
+            }}
+          />
+        </div>
       </div>
     </div>
   );
