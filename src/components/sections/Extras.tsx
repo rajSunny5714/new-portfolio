@@ -106,11 +106,15 @@ const Extras = () => {
           </div>
 
           <div className="bg-custom-yellow border-2 border-black rounded-xl p-4 font-bold">
-            GitHub Foundations (GH-900) — Microsoft
+            GitHub Foundations (GH-900) — GitHub
           </div>
 
           <div className="bg-custom-yellow border-2 border-black rounded-xl p-4 font-bold">
             Agentic AI Foundations Associate — Oracle
+          </div>
+
+           <div className="bg-custom-yellow border-2 border-black rounded-xl p-4 font-bold">
+            OCI Certified AI Foundations Associate — Oracle
           </div>
 
           <div className="bg-custom-pink border-2 border-black rounded-xl p-4 font-bold">
