@@ -106,10 +106,6 @@ const Extras = () => {
           </div>
 
           <div className="bg-custom-yellow border-2 border-black rounded-xl p-4 font-bold">
-            SQL Certificate — HackerRank
-          </div>
-
-          <div className="bg-custom-yellow border-2 border-black rounded-xl p-4 font-bold">
             GitHub Foundations (GH-900) — Microsoft
           </div>
 
@@ -120,6 +116,14 @@ const Extras = () => {
           <div className="bg-custom-pink border-2 border-black rounded-xl p-4 font-bold">
             Microsoft Security, Compliance, and Identity Fundamentals
             (SC-900) — Microsoft
+          </div>
+
+           <div className="bg-custom-yellow border-2 border-black rounded-xl p-4 font-bold">
+            Azure Fundamentals — Microsoft
+          </div>
+
+           <div className="bg-custom-yellow border-2 border-black rounded-xl p-4 font-bold">
+            SQL Certificate — HackerRank
           </div>
 
           <div className="bg-custom-pink border-2 border-black rounded-xl p-4 font-bold">
