@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope, FaCode, FaTimes } from 'react-icons/fa';
-
+import { SiLeetcode, SiCodingninjas, SiHackerrank } from "react-icons/si";
 interface ContactModalProps {
   isOpen: boolean;
   onClose: () => void;
@@ -32,10 +32,13 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
                 <FaLinkedin className="text-xl"/> LinkedIn
             </a>
             <a href="https://leetcode.com/u/rajSunny5714" target="_blank" rel="noreferrer" className="flex items-center gap-3 p-3 bg-orange-200 border-2 border-black rounded-xl hover:translate-x-1 hover:shadow-neo-sm transition-all">
-                <FaCode className="text-xl"/> LeetCode
+                <SiLeetcode className="text-xl"/> LeetCode
             </a>
             <a href="https://www.naukri.com/code360/profile/rajsunny5714" target="_blank" rel="noreferrer" className="flex items-center gap-3 p-3 bg-orange-200 border-2 border-black rounded-xl hover:translate-x-1 hover:shadow-neo-sm transition-all">
-                <FaCode className="text-xl"/> Coding Ninjas
+                <SiCodingninjas className="text-xl"/> Coding Ninjas
+            </a>
+            <a href="https://www.hackerrank.com/profile/rajSunny5714" target="_blank" rel="noreferrer" className="flex items-center gap-3 p-3 bg-orange-200 border-2 border-black rounded-xl hover:translate-x-1 hover:shadow-neo-sm transition-all">
+                <SiHackerrank className="text-xl"/> HackerRank
             </a>
         </div>
 
