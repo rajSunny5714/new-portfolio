@@ -31,8 +31,6 @@ function App() {
   return (
     <div className="min-h-screen bg-custom-blue overflow-x-hidden selection:bg-custom-yellow selection:text-black font-sans relative">
       <Preloader/>
-      
-      <CustomCursor />
      
       <div className="fixed top-0 left-0 h-2 bg-custom-green z-[100] transition-all duration-100 ease-out" style={{ width: `${scrollProgress * 100}%` }}></div>
       <div className="fixed top-0 left-0 w-full h-2 bg-custom-yellow z-[90]"></div>
