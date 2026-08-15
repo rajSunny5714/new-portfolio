@@ -67,6 +67,20 @@ const Skills = () => {
               'Redux Toolkit (RTK)',
             ]}
           />
+
+        <SkillCategory
+            title="Databases, Cloud & DevOps"
+            color="bg-custom-red"
+            skills={[
+              'MySQL',
+              'PostgreSQL',
+              'Redis',
+              'AWS',
+              'Docker',
+              'Kubernetes',
+              'Kafka',
+            ]}
+          />
           
           <SkillCategory
             title="IAM & Security"
@@ -100,20 +114,6 @@ const Skills = () => {
               'Prompt Engineering',
               'RAG',
               'AI Agents',
-            ]}
-          />
-          
-          <SkillCategory
-            title="Databases, Cloud & DevOps"
-            color="bg-custom-red"
-            skills={[
-              'MySQL',
-              'PostgreSQL',
-              'Redis',
-              'AWS,
-              'Docker',
-              'Kubernetes',
-              'Kafka',
             ]}
           />
           
