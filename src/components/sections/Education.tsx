@@ -62,7 +62,7 @@ const Education = () => {
       year: 'Jun 2021 - Jul 2024',
       place: 'B. R. Ambedkar Bihar University, Muzaffarpur',
       title: 'Bachelor of Computer Applications (BCA)',
-      score: '75.8%',
+      score: 'Percent: 75.8%',
       color: 'bg-blue-100',
       desc: 'I completed my Bachelor of Computer Applications (BCA) from L. N. T. College, Muzaffarpur, under Bihar University, where I built a strong foundation in computer science, programming, and software development.',
     },
