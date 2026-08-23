@@ -20,10 +20,8 @@ const Hero = () => {
   return (
     <section className="pt-4 pb-8 px-4 max-w-7xl mx-auto">
 
-      {/* ================= TOP HERO ================= */}
       <div className="flex flex-col md:flex-row gap-8 items-start justify-center">
 
-        {/* PROFILE CARD */}
         <div className="w-full md:w-1/3 bg-white border-4 border-black rounded-3xl p-6 shadow-neo flex flex-col items-center text-center relative overflow-hidden">
 
           <div className="w-32 h-32 bg-custom-pink rounded-full border-4 border-black mb-4 flex items-center justify-center text-4xl overflow-hidden">
@@ -89,7 +87,6 @@ const Hero = () => {
 
           </div>
 
-          {/* SOCIAL LINKS */}
           <div className="flex gap-4 mt-6 text-2xl">
 
             <a
@@ -146,8 +143,6 @@ const Hero = () => {
 
         </div>
 
-
-        {/* ABOUT SECTION */}
         <div
           id="about"
           className="w-full md:w-2/3 flex flex-col gap-6"
@@ -209,7 +204,7 @@ const Hero = () => {
       {/* ================= BOTTOM SECTION ================= */}
       <div className="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
 
-        {/* TERMINAL IMAGE */}
+     
         <div className="lg:col-span-1 bg-white border-4 border-black rounded-3xl shadow-neo p-6">
 
           <div className="border-b-4 border-black pb-3 mb-4">
@@ -222,14 +217,13 @@ const Hero = () => {
             <img
               src="/terminal-side-image.png"
               alt="Sunny Raj Developer Workspace"
-              className="w-full max-w-md h-auto object-contain"
+              className="w-95 h-95 object-cover mx-auto"
             />
           </div>
 
         </div>
 
 
-        {/* MINI TERMINAL */}
         <div className="lg:col-span-2">
           <MiniTerminal />
         </div>
