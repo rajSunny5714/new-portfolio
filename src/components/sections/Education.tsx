@@ -52,11 +52,11 @@ const Education = () => {
   const educationData: EduProps[] = [
     {
       year: 'May 2025 - Jun 2027',
-      place: 'IIIT Ranchi & IIT Patna (Hybrid Full Time)',
+      place: 'IIIT Ranchi & IIT Patna (Joint Hybrid Full Time Programme)',
       title: 'Master of Computer Applications (MCA)',
       score: 'CGPA: 7.8/10',
       color: 'bg-purple-100',
-      desc: 'I am currently pursuing a Master of Computer Applications (MCA) at IIIT Ranchi through a hybrid full-time program conducted in collaboration with IIT Patna (2025–2027), where I continue to deepen my knowledge of software engineering and advanced computer science.',
+      desc: 'I am currently pursuing a Master of Computer Applications (MCA) at IIIT Ranchi through a hybrid full-time program conducted in collaboration with IIT Patna, where I continue to deepen my knowledge of software engineering and advanced computer science.',
     },
     {
       year: 'Jun 2021 - Jul 2024',
@@ -74,7 +74,7 @@ const Education = () => {
       className="py-14 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 w-full max-w-[1400px] mx-auto bg-custom-green border-4 border-black rounded-3xl shadow-neo"
     >
       <div className="flex justify-center mb-14 md:mb-16">
-        <div className="bg-white px-8 sm:px-10 md:px-12 py-4 sm:py-5 rounded-full border-4 border-black shadow-neo">
+        <div className="bg-amber-100 px-8 sm:px-10 md:px-12 py-4 sm:py-5 rounded-full border-4 border-black shadow-neo">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-shrikhand text-center">
             EDUCATION 🎓
           </h2>
