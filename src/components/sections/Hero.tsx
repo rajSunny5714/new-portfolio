@@ -201,36 +201,31 @@ const Hero = () => {
       </div>
 
 
-      {/* ================= BOTTOM SECTION ================= */}
-      <div className="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+     <div className="mt-8 bg-amber-100 border-4 border-black rounded-3xl shadow-neo p-6">
 
-     
-        <div className="lg:col-span-1 bg-white border-4 border-black rounded-3xl shadow-neo p-6">
-
-          <div className="border-b-4 border-black pb-3 mb-4">
-            <div className="inline-block bg-black text-white px-3 py-1 rounded-md font-mono font-bold text-xs">
-              DEVELOPER_WORKSPACE
-            </div>
-          </div>
-
-          <div className="flex justify-center items-center h-full">
-            <img
-              src="/terminal-side-image.png"
-              alt="Sunny Raj Developer Workspace"
-              className="w-95 h-95 object-cover mx-auto"
-            />
-          </div>
-
+      <div className="border-b-4 border-black pb-3 mb-6">
+        <div className="inline-block bg-black text-white px-3 py-1 rounded-md font-mono font-bold">
+          DEVELOPER_WORKSPACE
         </div>
-
-
-        <div className="lg:col-span-2">
+      </div>
+    
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+    
+        <div className="lg:col-span-1 flex justify-center items-center">
+          <img
+            src="/terminal-side-image.png"
+            alt="Sunny Raj Developer Workspace"
+            className="w-full max-w-sm h-auto object-contain"
+          />
+        </div>
+    
+        <div className="lg:col-span-2 w-full">
           <MiniTerminal />
         </div>
-
+    
       </div>
-
-
+    
+    </div>
       <ContactModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
