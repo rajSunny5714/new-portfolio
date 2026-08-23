@@ -131,19 +131,6 @@ const Hero = () => {
             <SiHackerrank />
           </a>
         </div>
-
-        <div className="w-full mt-8">
-           <div className="border-t-4 border-black pt-3 mb-3">
-              <div className="inline-block bg-black text-white px-3 py-1 rounded-md font-mono font-bold text-xs">
-                DEVELOPER_WORKSPACE
-              </div>
-            </div>
-          <img
-            src="/terminal-side-image.png"
-            alt="Sunny Raj"
-            className="w-95 h-95 object-cover mx-auto"
-          />
-        </div>
       </div>
 
       <div
@@ -194,9 +181,34 @@ const Hero = () => {
             🚀 Open to Java Backend, Full Stack & IAM Engineer Roles
           </div>
         </div>
-         <MiniTerminal />
       </div>
       
+      <div className="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+
+        {/* TERMINAL IMAGE */}
+        <div className="lg:col-span-1 bg-white border-4 border-black rounded-3xl shadow-neo p-6">
+
+          <div className="border-b-4 border-black pb-3 mb-4">
+            <div className="inline-block bg-black text-white px-3 py-1 rounded-md font-mono font-bold text-xs">
+              DEVELOPER_WORKSPACE
+            </div>
+          </div>
+
+          <div className="flex justify-center items-center h-full">
+            <img
+              src="/terminal-side-image.png"
+              alt="Sunny Raj Developer Workspace"
+              className="w-full max-w-md h-auto object-contain"
+            />
+          </div>
+        </div>
+
+        {/* MINI TERMINAL */}
+        <div className="lg:col-span-2">
+          <MiniTerminal />
+        </div>
+      </div>
+
       <ContactModal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
