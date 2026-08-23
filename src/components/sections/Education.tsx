@@ -52,11 +52,11 @@ const Education = () => {
   const educationData: EduProps[] = [
     {
       year: 'May 2025 - Jun 2027',
-      place: 'IIIT Ranchi & IIT Patna (Joint Hybrid Full Time Programme)',
+      place: 'Indian Institute of Technology, Patna',
       title: 'Master of Computer Applications (MCA)',
       score: 'CGPA: 7.8/10',
       color: 'bg-purple-100',
-      desc: 'I am currently pursuing a Master of Computer Applications (MCA) at IIIT Ranchi through a hybrid full-time program conducted in collaboration with IIT Patna, where I continue to deepen my knowledge of software engineering and advanced computer science.',
+      desc: 'I am currently pursuing a Master of Computer Applications (MCA) at IIIT Ranchi and IIT Patna, through a hybrid full-time program, where I continue to deepen my knowledge of software engineering and advanced computer science.',
     },
     {
       year: 'Jun 2021 - Jul 2024',
