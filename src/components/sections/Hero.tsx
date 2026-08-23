@@ -131,6 +131,19 @@ const Hero = () => {
             <SiHackerrank />
           </a>
         </div>
+
+        <div className="w-full mt-8">
+           <div className="border-t-4 border-black pt-3 mb-3">
+              <div className="inline-block bg-black text-white px-3 py-1 rounded-md font-mono font-bold text-xs">
+                DEVELOPER_WORKSPACE
+              </div>
+            </div>
+          <img
+            src="/terminal-side-image.png"
+            alt="Sunny Raj"
+            className="w-95 h-95 object-cover mx-auto"
+          />
+        </div>
       </div>
 
       <div
