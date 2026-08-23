@@ -91,7 +91,7 @@ const Experience = () => {
       className="py-10 px-4 max-w-7xl mx-auto bg-custom-blue border-4 border-black rounded-3xl shadow-neo"
     >
       <div className="flex justify-center mb-10">
-        <div className="bg-white px-8 py-3 rounded-full border-4 border-black shadow-neo">
+        <div className="bg-orange-300 px-8 py-3 rounded-full border-4 border-black shadow-neo">
           <h2 className="text-3xl font-shrikhand">
             EXPERIENCE 💼
           </h2>
