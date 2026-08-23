@@ -64,20 +64,13 @@ const Experience = () => {
       duration: 'Jan 2025 - Present',
       roles: [
         {
-          role: 'Programmer',
-          location: 'New Delhi, Delhi, India',
-          points: [
-            'Resolved 5–10 application incidents daily through ServiceNow by performing monitoring, troubleshooting, log analysis, and root-cause analysis while maintaining 99.9% SLA compliance.',
-            'Managed user access provisioning and revocation for enterprise applications, supporting 100+ access requests monthly while following least-privilege and security compliance practices.',
-            'Collaborated with clients and cross-functional engineering teams to troubleshoot production issues, identify recurring failures, and improve application reliability.',
-          ],
-        },
-        {
-          role: 'Analyst -- Graduate Trainee',
+          role: 'Programmer -- Developer',
           location: 'Noida, Uttar Pradesh, India',
           points: [
-            'Improved HERE Maps data quality by 15% by developing Python automation with Pandas and NumPy to validate, clean, and process 50K+ geospatial records.',
-            'Audited and optimized 5,000+ Points of Interest using advanced SQL queries and data-validation techniques, increasing search accuracy by 12% and reducing manual review effort by 35%.',
+            'Designed and developed 15+ scalable REST APIs for product management, inventory, order processing, and secure payment workflows using Java, Spring Boot, and SQL.',
+            'Optimized backend performance through SQL query tuning, database indexing, N+1 query resolution, and Redis caching, reducing API response time by 25% and database load by 30%.',
+            'Collaborated with Agile teams on feature development, code reviews, production support, sprint planning, and deployments, ensuring reliable and maintainable backend services.',
+            'Investigated and resolved production issues and application defects, performing root cause analysis and imple menting effective fixes to maintain 99.9% service availability and meet SLA requirements.',
           ],
         },
         {
