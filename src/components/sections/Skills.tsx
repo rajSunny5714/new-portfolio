@@ -120,6 +120,7 @@ const Skills = () => {
               'Spring Security',
               'Microsoft Entra ID (Azure AD)',
               'Secure Coding',
+              'Access Management',
             ]}
           />
 
