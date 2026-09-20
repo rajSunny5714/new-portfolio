@@ -116,8 +116,8 @@ const Skills = () => {
               'Identity Federation',
               'Authentication',
               'Authorization',
-              'Microsoft Entra ID (Azure AD)',
               'Secure Coding',
+              'Microsoft Entra ID (Azure AD)',
               'Identity & Access Management (IAM)',
             ]}
           />
