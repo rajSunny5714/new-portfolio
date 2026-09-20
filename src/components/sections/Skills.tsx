@@ -47,12 +47,12 @@ const Skills = () => {
               'Java',
               'Python',
               'SQL',
+              'JavaScript',
               'HTML5',
               'CSS3',
-              'JavaScript',
             ]}
           />
-
+          
           <SkillCategory
             title="Frameworks and Libraries"
             color="bg-custom-pink"
@@ -67,23 +67,23 @@ const Skills = () => {
               'Tailwind CSS',
             ]}
           />
-
+          
           <SkillCategory
-            title="Backend/Architecture"
+            title="Backend & Architecture"
             color="bg-custom-blue"
             skills={[
               'REST APIs',
               'JDBC',
               'Microservices',
-              'Swagger (OpenAPI)',
               'API Gateway',
+              'Swagger (OpenAPI)',
               'Event-Driven Architecture',
               'Caching',
               'System Design',
             ]}
           />
-        
-        <SkillCategory
+          
+          <SkillCategory
             title="Cloud, DevOps & Databases"
             color="bg-custom-red"
             skills={[
@@ -96,11 +96,10 @@ const Skills = () => {
               'Kafka',
               'Jenkins',
               'CI/CD',
-              'GitHub',
               'GitHub Actions',
             ]}
-         />
-        
+          />
+          
           <SkillCategory
             title="IAM & Security"
             color="bg-custom-green"
@@ -117,13 +116,12 @@ const Skills = () => {
               'Identity Federation',
               'Authentication',
               'Authorization',
-              'Spring Security',
               'Microsoft Entra ID (Azure AD)',
               'Secure Coding',
-              'Access Management',
+              'Identity & Access Management (IAM)',
             ]}
           />
-
+          
           <SkillCategory
             title="AI & GenAI"
             color="bg-custom-yellow"
@@ -134,32 +132,34 @@ const Skills = () => {
               'Prompt Engineering',
               'RAG',
               'AI Agents',
-              'Vector Embedding',
+              'Vector Embeddings',
               'Function Calling',
             ]}
           />
-
+          
           <SkillCategory
-            title="Core CS "
+            title="Core CS"
             color="bg-purple-300"
             skills={[
               'Data Structures & Algorithms',
               'Object-Oriented Programming',
-              'Java Collection Framework',
+              'Java Collections Framework',
             ]}
           />
-
+          
           <SkillCategory
             title="Developer Tools"
             color="bg-orange-300"
             skills={[
-              'Intellij IDEA',
+              'IntelliJ IDEA',
               'VS Code',
               'Maven',
               'Gradle',
-              'JUnit',
+              'JUnit 5',
+              'Git',
+              'GitHub',
               'ServiceNow',
-              'JIRA',
+              'Jira',
               'Okta',
               'Postman',
             ]}
