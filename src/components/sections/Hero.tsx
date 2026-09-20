@@ -164,7 +164,7 @@ const Hero = () => {
               <span className="font-bold bg-white px-1 border border-black">
                 Java Full Stack Developer
               </span>{' '}
-              with 1.5+ years of experience at TCS, working as a Programmer with experience in application monitoring, troubleshooting, incident management, and enterprise access management.
+              with 1.6+ years of experience at TCS, working as a Programmer. I build scalable backend applications and also contributing to API integration, performance optimization, production support, and Agile software development.
             </p>
 
             <p className="text-lg font-medium leading-relaxed mb-4">
@@ -196,7 +196,7 @@ const Hero = () => {
             </p>
 
             <div className="bg-white p-4 border-2 border-black rounded-xl inline-block font-bold shadow-neo-sm">
-              🚀 Open to Java Backend, Full Stack & IAM Engineer Roles
+              🚀 Open to Java Backend, Full Stack, Software Engineer & IAM Engineer (Entry Level) Roles
             </div>
 
           </div>
