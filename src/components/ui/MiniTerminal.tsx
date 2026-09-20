@@ -58,7 +58,7 @@ const MiniTerminal = () => {
           addLine('Available Commands 👇');
           addLine('whoami    -> About me');
           addLine('skills    -> Technical skills');
-          addLine('projects  -> Featured projects');
+          addLine('projects  -> Featured top projects');
           addLine('experience -> Work experience');
           addLine('education -> Academic background');
           addLine('contact   -> Social links');
@@ -74,7 +74,7 @@ const MiniTerminal = () => {
         case 'whoami':
           addLine('👨‍💻 Sunny Raj');
           addLine(
-            'Java FullStack Developer, Programmer @ TCS | MCA Student'
+            'FullStack Java Developer, Programmer @ TCS | MCA Student'
           );
           addLine(
             'Aspiring IAM & Cybersecurity Engineer'
