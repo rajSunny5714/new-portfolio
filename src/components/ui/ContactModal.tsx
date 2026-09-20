@@ -34,7 +34,6 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
             <a href="https://www.linkedin.com/in/sunny-raj-299401273/" target="_blank" rel="noreferrer" className="flex items-center gap-3 p-3 bg-blue-200 border-2 border-black rounded-xl hover:translate-x-1 hover:shadow-neo-sm transition-all">
                 <FaLinkedin className="text-xl"/> LinkedIn
             </a>
-            </a>
             <a href="https://x.com/sunnyraj_21" target="_blank" rel="noreferrer" className="flex items-center gap-3 p-3 bg-orange-200 border-2 border-black rounded-xl hover:translate-x-1 hover:shadow-neo-sm transition-all">
                <SiX className="text-xl" /> X
             </a>
