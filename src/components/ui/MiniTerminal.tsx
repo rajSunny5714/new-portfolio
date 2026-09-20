@@ -58,7 +58,7 @@ const MiniTerminal = () => {
           addLine('Available Commands 👇');
           addLine('whoami    -> About me');
           addLine('skills    -> Technical skills');
-          addLine('projects  -> Featured top projects');
+          addLine('projects  -> Featured projects');
           addLine('experience -> Work experience');
           addLine('education -> Academic background');
           addLine('contact   -> Social links');
