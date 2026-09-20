@@ -47,9 +47,6 @@ const Skills = () => {
               'Java',
               'Python',
               'SQL',
-              'JavaScript',
-              'HTML5',
-              'CSSS3',
             ]}
           />
 
@@ -57,7 +54,7 @@ const Skills = () => {
             title="Frameworks and Libraries"
             color="bg-custom-pink"
             skills={[
-              'Springboot',
+              'Spring Boot',
               'Spring MVC',
               'Spring Security',
               'Spring Data JPA',
@@ -69,15 +66,31 @@ const Skills = () => {
           />
 
           <SkillCategory
-            title="Backend Services"
+            title="Backend/Architecture"
             color="bg-custom-blue"
             skills={[
               'REST APIs',
               'JDBC',
               'Microservices',
               'Swagger (OpenAPI)',
+              'API Gateway',
+              'Event-Driven Architecture',
+              'Caching',
+              'System Design',
             ]}
           />
+
+        <SkillCategory
+            title="Frontend Services"
+            color="bg-custom-blue"
+            skills={[
+              'JavaScript',
+              'React.js',
+              'HTML5',
+              'CSS3',
+            ]}
+          />
+        
         <SkillCategory
             title="Cloud, Databases & DevOps Concepts"
             color="bg-custom-red"
@@ -110,8 +123,7 @@ const Skills = () => {
               'LDAP',
               'PIM',
               'Identity Federation',
-              'Microsoft Entra ID',
-              'Azure AD',
+              'Microsoft Entra ID (Azure AD)',
               'Spring Security',
               'Authentication',
               'Authorization',
@@ -120,7 +132,7 @@ const Skills = () => {
           />
 
           <SkillCategory
-            title="AI & GenAI -- Concepts"
+            title="AI & GenAI"
             color="bg-custom-yellow"
             skills={[
               'LLMs',
@@ -140,10 +152,7 @@ const Skills = () => {
             skills={[
               'Data Structures & Algorithms',
               'Object-Oriented Programming',
-              'API Gateway',
-              'System Design',
-              'Event-Driven Architecture',
-              'Caching',
+              'Java Collection Framework',
             ]}
           />
 
@@ -151,7 +160,7 @@ const Skills = () => {
             title="Developer Tools"
             color="bg-orange-300"
             skills={[
-              'Intellij Idea',
+              'Intellij IDEA',
               'VS Code',
               'Maven',
               'Gradle',
