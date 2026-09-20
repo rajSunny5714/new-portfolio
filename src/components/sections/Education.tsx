@@ -54,7 +54,7 @@ const Education = () => {
       year: 'May 2025 - Jun 2027',
       place: 'Indian Institute of Technology, Patna',
       title: 'Master of Computer Applications (MCA)',
-      score: 'CGPA: 7.8/10',
+      score: 'CGPA: 7.68/10',
       color: 'bg-purple-100',
       desc: 'I am currently pursuing a Master of Computer Applications (MCA) at IIIT Ranchi and IIT Patna, through a hybrid full-time program, where I continue to deepen my knowledge of software engineering and advanced computer science.',
     },
