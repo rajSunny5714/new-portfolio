@@ -118,15 +118,6 @@ const MiniTerminal = () => {
           addLine(
             '4. ChatBot AI'
           );
-          addLine(
-            '5. Modern PlayStream'
-          );
-          addLine(
-            '6. ThinkHive Edusity Web'
-          );
-          addLine(
-            '7. Daily Expense Tracker'
-          );
           break;
 
         case 'experience':
@@ -134,7 +125,7 @@ const MiniTerminal = () => {
             '💼 Programmer - @ TCS'
           );
           addLine(
-            'Resolved production incidents using Java & Spring Boot.'
+            'Resolved production issues and Developed restful apis using Java & Spring Boot.'
           );
           addLine(
             'Optimized APIs and backend SQL performance.'
