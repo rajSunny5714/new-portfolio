@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaEnvelope, FaCode, FaTimes } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaCode, FaTimes, FaPhone } from 'react-icons/fa';
 import { SiLeetcode, SiCodingninjas, SiHackerrank } from "react-icons/si";
 interface ContactModalProps {
   isOpen: boolean;
