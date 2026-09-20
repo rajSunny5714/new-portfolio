@@ -196,7 +196,7 @@ const Hero = () => {
             </p>
 
             <div className="bg-white p-4 border-2 border-black rounded-xl inline-block font-bold shadow-neo-sm">
-              🚀 Open to Java Backend, Full Stack, Software Engineer & IAM Engineer (Entry Level) Roles
+              🚀 Open to Java Backend, Full Stack, Software Engineer, IAM Engineer & AI-Driven Software Engineering Roles
             </div>
 
           </div>
