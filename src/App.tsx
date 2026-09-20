@@ -46,16 +46,11 @@ function App() {
        
         <Skills />
         
-        
+        <Education />
+
         <Projects />
         
-        
-        <Education />
-        
-        
         <Extras />
-
-       
 
         <Marquee/>
         
