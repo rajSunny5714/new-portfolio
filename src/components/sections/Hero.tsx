@@ -89,65 +89,6 @@ const Hero = () => {
 
           </div>
 
-          {/* SOCIAL LINKS */}
-          <div className="flex gap-4 mt-6 text-2xl">
-
-            <a
-              href="https://github.com/rajSunny5714"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="GitHub"
-              className="flex flex-col items-center gap-1 hover:scale-110 transition-transform"
-            >
-              <FaGithub size={25} />
-              <span className="text-sm">GitHub</span>
-            </a>
-            
-            <a
-              href="https://www.linkedin.com/in/sunny-raj-299401273/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="LinkedIn"
-              className="flex flex-col items-center gap-1 hover:scale-110 transition-transform text-blue-700"
-            >
-              <FaLinkedin size={25} />
-              <span className="text-sm">LinkedIn</span>
-            </a>
-            
-            <a
-              href="https://leetcode.com/u/rajSunny5714"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="LeetCode"
-              className="flex flex-col items-center gap-1 hover:scale-110 transition-transform text-orange-600"
-            >
-              <SiLeetcode size={25} />
-              <span className="text-sm">LeetCode</span>
-            </a>
-            
-            <a
-              href="https://www.naukri.com/code360/profile/rajsunny5714"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Coding Ninjas"
-              className="flex flex-col items-center gap-1 hover:scale-110 transition-transform text-orange-600"
-            >
-              <SiCodingninjas size={25} />
-              <span className="text-sm">Coding Ninjas</span>
-            </a>
-            
-            <a
-              href="https://www.hackerrank.com/profile/rajSunny5714"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="HackerRank"
-              className="flex flex-col items-center gap-1 hover:scale-110 transition-transform text-green-600"
-            >
-              <SiHackerrank size={25} />
-              <span className="text-sm">HackerRank</span>
-            </a>
-          </div>
-
         </div>
 
 
