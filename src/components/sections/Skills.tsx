@@ -84,7 +84,7 @@ const Skills = () => {
           />
         
         <SkillCategory
-            title="Cloud, Databases & DevOps Concepts"
+            title="Cloud, DevOps & Databases"
             color="bg-custom-red"
             skills={[
               'MySQL',
@@ -117,8 +117,8 @@ const Skills = () => {
               'Identity Federation',
               'Authentication',
               'Authorization',
-              'Microsoft Entra ID (Azure AD)',
               'Spring Security',
+              'Microsoft Entra ID (Azure AD)',
               'Secure Coding',
             ]}
           />
@@ -159,6 +159,7 @@ const Skills = () => {
               'JUnit',
               'ServiceNow',
               'JIRA',
+              'Okta',
               'Postman',
             ]}
           />
