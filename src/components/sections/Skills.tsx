@@ -58,11 +58,13 @@ const Skills = () => {
             color="bg-custom-pink"
             skills={[
               'Springboot',
+              'Spring MVC',
               'Spring Security',
               'Spring Data JPA',
               'Hibernate',
               'React',
               'Redux Toolkit (RTK)',
+              'Tailwind CSS',
             ]}
           />
 
@@ -73,10 +75,27 @@ const Skills = () => {
               'REST APIs',
               'JDBC',
               'Microservices',
-              'Swagger (OpenAPI)'
+              'Swagger (OpenAPI)',
             ]}
           />
-
+        <SkillCategory
+            title="Cloud, Databases & DevOps Concepts"
+            color="bg-custom-red"
+            skills={[
+              'MySQL',
+              'PostgreSQL',
+              'Redis',
+              'AWS (S3, EC2, IAM, RDS, Lambda)',
+              'Docker',
+              'Kubernetes',
+              'Kafka',
+              'Jenkins',
+              'CI/CD',
+              'GitHub',
+              'GitHub Actions',
+            ]}
+         />
+        
           <SkillCategory
             title="IAM & Security"
             color="bg-custom-green"
@@ -89,6 +108,7 @@ const Skills = () => {
               'SSO',
               'MFA',
               'LDAP',
+              'PIM',
               'Identity Federation',
               'Microsoft Entra ID',
               'Azure AD',
@@ -109,44 +129,30 @@ const Skills = () => {
               'Prompt Engineering',
               'RAG',
               'AI Agents',
-              'Vector Databases',
+              'Vector Embedding',
               'Function Calling',
             ]}
           />
 
           <SkillCategory
-            title="Cloud and Databases"
-            color="bg-custom-red"
-            skills={[
-              'MySQL',
-              'PostgreSQL',
-              'Redis',
-              'AWS',
-              'Docker',
-              'Kubernetes',
-              'Kafka',
-            ]}
-          />
-
-          <SkillCategory
-            title="Core CS & Networking"
+            title="Core CS "
             color="bg-purple-300"
             skills={[
               'Data Structures & Algorithms',
               'Object-Oriented Programming',
-              'TCP/IP',
-              'HTTP/HTTPS',
-              'DNS',
-              'SSL/TLS',
+              'API Gateway',
+              'System Design',
+              'Event-Driven Architecture',
+              'Caching',
             ]}
           />
 
           <SkillCategory
-            title="Developer Tools & Practices"
+            title="Developer Tools"
             color="bg-orange-300"
             skills={[
-              'Git',
-              'GitHub',
+              'Intellij Idea',
+              'VS Code',
               'Maven',
               'Gradle',
               'JUnit',
