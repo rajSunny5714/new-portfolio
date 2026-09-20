@@ -39,7 +39,7 @@ const Hero = () => {
           </h1>
 
           <div className="bg-black text-white px-3 py-1 font-mono text-sm rounded-md mb-4 rotate-1">
-            JAVA_FULLSTACK_Developer()
+            FULLSTACK_Java_Developer()
           </div>
 
           <div className="w-full space-y-3 text-left font-bold text-sm font-mono border-t-2 border-black pt-4">
@@ -97,51 +97,55 @@ const Hero = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
-              className="hover:scale-110 transition-transform"
+              className="flex flex-col items-center gap-1 hover:scale-110 transition-transform"
             >
-              <FaGithub />
+              <FaGithub size={25} />
+              <span className="text-sm">GitHub</span>
             </a>
-
+            
             <a
               href="https://www.linkedin.com/in/sunny-raj-299401273/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
-              className="hover:scale-110 transition-transform text-blue-700"
+              className="flex flex-col items-center gap-1 hover:scale-110 transition-transform text-blue-700"
             >
-              <FaLinkedin />
+              <FaLinkedin size={25} />
+              <span className="text-sm">LinkedIn</span>
             </a>
-
+            
             <a
               href="https://leetcode.com/u/rajSunny5714"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LeetCode"
-              className="hover:scale-110 transition-transform text-orange-600"
+              className="flex flex-col items-center gap-1 hover:scale-110 transition-transform text-orange-600"
             >
               <SiLeetcode size={25} />
+              <span className="text-sm">LeetCode</span>
             </a>
-
+            
             <a
               href="https://www.naukri.com/code360/profile/rajsunny5714"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Coding Ninjas"
-              className="hover:scale-110 transition-transform text-orange-600"
+              className="flex flex-col items-center gap-1 hover:scale-110 transition-transform text-orange-600"
             >
               <SiCodingninjas size={25} />
+              <span className="text-sm">Coding Ninjas</span>
             </a>
-
+            
             <a
               href="https://www.hackerrank.com/profile/rajSunny5714"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="HackerRank"
-              className="hover:scale-110 transition-transform text-green-600"
+              className="flex flex-col items-center gap-1 hover:scale-110 transition-transform text-green-600"
             >
-              <SiHackerrank />
+              <SiHackerrank size={25} />
+              <span className="text-sm">HackerRank</span>
             </a>
-
           </div>
 
         </div>
