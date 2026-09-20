@@ -64,7 +64,7 @@ const Experience = () => {
       duration: 'Jan 2025 - Present',
       roles: [
         {
-          role: 'Programmer -- Developer',
+          role: 'Programmer -- Backend Software Engineer',
           location: 'Noida, Uttar Pradesh, India',
           points: [
             'Designed and developed 15+ scalable REST APIs for product management, inventory, order processing, and secure payment workflows using Java, Spring Boot, and SQL.',
