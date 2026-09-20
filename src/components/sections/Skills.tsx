@@ -47,6 +47,9 @@ const Skills = () => {
               'Java',
               'Python',
               'SQL',
+              'HTML5',
+              'CSS3',
+              'JavaScript',
             ]}
           />
 
@@ -77,17 +80,6 @@ const Skills = () => {
               'Event-Driven Architecture',
               'Caching',
               'System Design',
-            ]}
-          />
-
-        <SkillCategory
-            title="Frontend Services"
-            color="bg-custom-blue"
-            skills={[
-              'JavaScript',
-              'React.js',
-              'HTML5',
-              'CSS3',
             ]}
           />
         
@@ -123,10 +115,10 @@ const Skills = () => {
               'LDAP',
               'PIM',
               'Identity Federation',
-              'Microsoft Entra ID (Azure AD)',
-              'Spring Security',
               'Authentication',
               'Authorization',
+              'Microsoft Entra ID (Azure AD)',
+              'Spring Security',
               'Secure Coding',
             ]}
           />
