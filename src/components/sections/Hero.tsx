@@ -109,7 +109,7 @@ const Hero = () => {
               <span className="font-bold bg-white px-1 border border-black">
                 Java Full Stack Developer
               </span>{' '}
-              with 1.6+ years of experience at TCS, working as a Programmer. I build scalable backend applications and also contributing to API integration, performance optimization, production support, and Agile software development.
+              with 1.7+ years of experience at TCS, working as a Programmer. I build scalable backend applications and also contributing to API integration, performance optimization, production support, and Agile software development.
             </p>
 
             <p className="text-lg font-medium leading-relaxed mb-4">
