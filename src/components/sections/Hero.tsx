@@ -70,7 +70,7 @@ const Hero = () => {
           <div className="w-full flex flex-col gap-3 mt-6">
 
             <a
-              href="https://drive.google.com/file/d/1VvtWxiWPvD16BWeLcfJm3hx-P_Q9X4WZ/view"
+              href="https://drive.google.com/file/d/1e4G2vyzl0UJ1BHmk5kqMPfqOxz0Ov9IF/view"
               download
               className="bg-custom-green w-full py-3 rounded-xl border-2 border-black font-bold shadow-neo-sm hover:translate-y-1 hover:shadow-none transition-all flex items-center justify-center gap-2"
             >
@@ -141,7 +141,7 @@ const Hero = () => {
             </p>
 
             <div className="bg-white p-4 border-2 border-black rounded-xl inline-block font-bold shadow-neo-sm">
-              🚀 Open to Java Backend, Full Stack, Software Engineer, IAM Engineer (Entry Level) & AI-Driven Software Engineering Roles
+              🚀 Open to Java Backend, Full Stack, Software Engineer, SDE & AI-Driven Software Engineering Roles
             </div>
 
           </div>
