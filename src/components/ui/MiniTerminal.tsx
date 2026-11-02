@@ -77,7 +77,7 @@ const MiniTerminal = () => {
             'FullStack Java Developer, Programmer @ TCS | MCA Student'
           );
           addLine(
-            'Aspiring IAM & Cybersecurity Engineer'
+            'Software Engineer'
           );
           break;
 
@@ -92,7 +92,7 @@ const MiniTerminal = () => {
           );
           addLine('⚡ Security');
           addLine(
-            'Spring Security, JWT, OAuth 2.0'
+            'Spring Security, JWT'
           );
           addLine('⚡ Database & Cloud');
           addLine(
