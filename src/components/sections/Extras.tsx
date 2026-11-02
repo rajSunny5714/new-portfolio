@@ -43,7 +43,7 @@ const Extras = () => {
                 </h3>
 
                 <p className="font-medium text-sm mt-2 leading-relaxed">
-                  Solved 350+ DSA problems on LeetCode.
+                  Solved 375+ DSA problems on LeetCode.
                 </p>
               </div>
             </div>
@@ -102,10 +102,6 @@ const Extras = () => {
           </div>
 
           <div className="bg-custom-yellow border-2 border-black rounded-xl p-4 font-bold">
-            Microsoft Identity and Access Administrator (SC-300) — Microsoft
-          </div>
-
-          <div className="bg-custom-yellow border-2 border-black rounded-xl p-4 font-bold">
             GitHub Foundations (GH-900) — GitHub
           </div>
 
@@ -120,10 +116,6 @@ const Extras = () => {
           <div className="bg-custom-pink border-2 border-black rounded-xl p-4 font-bold">
             Microsoft Security, Compliance, and Identity Fundamentals
             (SC-900) — Microsoft
-          </div>
-
-           <div className="bg-custom-yellow border-2 border-black rounded-xl p-4 font-bold">
-            Azure Fundamentals — Microsoft
           </div>
 
            <div className="bg-custom-yellow border-2 border-black rounded-xl p-4 font-bold">
