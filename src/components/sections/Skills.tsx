@@ -101,28 +101,6 @@ const Skills = () => {
           />
           
           <SkillCategory
-            title="IAM & Security"
-            color="bg-custom-green"
-            skills={[
-              'OAuth 2.0',
-              'OIDC',
-              'SAML 2.0',
-              'JWT',
-              'RBAC',
-              'SSO',
-              'MFA',
-              'LDAP',
-              'PIM',
-              'Identity Federation',
-              'Authentication',
-              'Authorization',
-              'Secure Coding',
-              'Microsoft Entra ID (Azure AD)',
-              'Identity & Access Management (IAM)',
-            ]}
-          />
-          
-          <SkillCategory
             title="AI & GenAI"
             color="bg-custom-yellow"
             skills={[
@@ -160,7 +138,6 @@ const Skills = () => {
               'GitHub',
               'ServiceNow',
               'Jira',
-              'Okta',
               'Postman',
             ]}
           />
