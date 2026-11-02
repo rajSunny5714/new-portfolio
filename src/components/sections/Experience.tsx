@@ -67,20 +67,14 @@ const Experience = () => {
           role: 'Programmer -- Backend Software Engineer',
           location: 'Noida, Uttar Pradesh, India',
           points: [
-            'Designed and developed 15+ scalable REST APIs for product management, inventory, order processing, and secure payment workflows using Java, Spring Boot, and SQL.',
-            'Optimized backend performance through SQL query tuning, database indexing, N+1 query resolution, and Redis caching, reducing API response time by 25% and database load by 30%.',
-            'Collaborated with Agile teams on feature development, code reviews, production support, sprint planning, and deployments, ensuring reliable and maintainable backend services.',
-            'Investigated and resolved production issues and application defects, performing root cause analysis and imple menting effective fixes to maintain 99.9% service availability and meet SLA requirements.',
+            'Designed and developed 20+ scalable REST APIs for product management, inventory, order processing, and secure payment workflows using Java, Spring Boot, and SQL.'
+            'Optimized backend performance through SQL query tuning, database indexing, N+1 query resolution, and Redis caching, reducing API response time by 25% and database load by 30%.'
+            'Collaborated with Agile teams on feature development, code reviews, production support, sprint planning, and deployments, ensuring reliable and maintainable backend services.'
+            'Investigated and resolved production issues and application defects, performing root cause analysis and implementing effective fixes to maintain 99.9% service availability and meet SLA requirements.'
+            'Addressed fragmented access control by designing an RBAC framework using Spring Security with role modules and 12+ distinct user roles, strengthening compliance and reducing unauthorized access incidents.'
+            'Containerized and deployed microservices on Docker and Kubernetes with automated CI/CD pipelines using Jenkins and GitHub Actions.'
+            'Built React + JavaScript frontend modules delivering role-aware dashboards tightly integrated with Spring Boot backend services.'
           ],
-        },
-        {
-          role: 'Graduate Trainee',
-          location: 'Chennai, Tamil Nadu, India',
-          points: [
-            'Started my professional career at TCS through the Graduate Trainee Program, completing intensive training in Java Full Stack Development, software engineering fundamentals, and enterprise technologies.',
-            'Gained hands-on experience working on enterprise applications, developing and integrating Java/Spring Boot REST APIs, optimizing backend performance, troubleshooting production issues, and supporting secure access management workflows.',
-            'Expanded my technical expertise across backend development, cloud technologies, IAM and security, and AI/GenAI systems while contributing to real-world enterprise solutions and Agile development practices.'
-          ]
         },
       ],
     },
